@@ -1,0 +1,42 @@
+< 2015-08-27 00:20:02.583 CEST >FATAL:  database "|" does not exist
+< 2015-08-27 00:20:02.595 CEST >FATAL:  database "|" does not exist
+< 2015-08-27 00:41:18.955 CEST >ERROR:  table "_public_data_apg3_2015_08_27_00h_41m_18s_couchdb" does not exist
+< 2015-08-27 00:41:18.955 CEST >STATEMENT:  DROP TABLE _public_data_apg3_2015_08_27_00h_41m_18s_couchdb
+< 2015-08-27 00:41:20.498 CEST >FATAL:  terminating connection due to administrator command
+< 2015-08-27 01:41:47.663 CEST >ERROR:  table "_public_data_apg3_2015_08_27_01h_41m_47s_couchdb" does not exist
+< 2015-08-27 01:41:47.663 CEST >STATEMENT:  DROP TABLE _public_data_apg3_2015_08_27_01h_41m_47s_couchdb
+< 2015-08-27 09:58:46.188 CEST >ERROR:  table "_public_data_apg3_2015_08_27_09h_58m_46s_couchdb" does not exist
+< 2015-08-27 09:58:46.188 CEST >STATEMENT:  DROP TABLE _public_data_apg3_2015_08_27_09h_58m_46s_couchdb
+< 2015-08-27 10:01:40.165 CEST >ERROR:  table "_guyane13_2015_08_27_10h_01m_40s_couchdb" does not exist
+< 2015-08-27 10:01:40.165 CEST >STATEMENT:  DROP TABLE _guyane13_2015_08_27_10h_01m_40s_couchdb
+< 2015-08-27 10:02:46.343 CEST >ERROR:  relation "_guyane13_2015_08_27_10h_01m_40s_sql" does not exist at character 22
+< 2015-08-27 10:02:46.343 CEST >STATEMENT:  SELECT lignesql FROM _guyane13_2015_08_27_10h_01m_40s_sql ORDER BY numligne 
+< 2015-08-27 10:49:06.247 CEST >ERROR:  table "_public_data_apg3_2015_08_27_10h_49m_06s_couchdb" does not exist
+< 2015-08-27 10:49:06.247 CEST >STATEMENT:  DROP TABLE _public_data_apg3_2015_08_27_10h_49m_06s_couchdb
+< 2015-08-27 10:51:15.063 CEST >ERROR:  table "_public_data_apg3_2015_08_27_10h_51m_15s_couchdb" does not exist
+< 2015-08-27 10:51:15.063 CEST >STATEMENT:  DROP TABLE _public_data_apg3_2015_08_27_10h_51m_15s_couchdb
+< 2015-08-27 10:51:16.228 CEST >FATAL:  terminating connection due to administrator command
+< 2015-08-27 10:52:42.106 CEST >ERROR:  table "_public_data_apg3_2015_08_27_10h_52m_42s_couchdb" does not exist
+< 2015-08-27 10:52:42.106 CEST >STATEMENT:  DROP TABLE _public_data_apg3_2015_08_27_10h_52m_42s_couchdb
+< 2015-08-27 10:55:18.135 CEST >ERROR:  table "_public_data_apg3_2015_08_27_10h_55m_18s_couchdb" does not exist
+< 2015-08-27 10:55:18.135 CEST >STATEMENT:  DROP TABLE _public_data_apg3_2015_08_27_10h_55m_18s_couchdb
+< 2015-08-27 11:03:59.908 CEST >ERROR:  table "_public_data_apg3_2015_08_27_11h_03m_59s_couchdb" does not exist
+< 2015-08-27 11:03:59.908 CEST >STATEMENT:  DROP TABLE _public_data_apg3_2015_08_27_11h_03m_59s_couchdb
+< 2015-08-27 11:06:15.996 CEST >ERROR:  table "_public_data_apg3_2015_08_27_11h_06m_15s_couchdb" does not exist
+< 2015-08-27 11:06:15.996 CEST >STATEMENT:  DROP TABLE _public_data_apg3_2015_08_27_11h_06m_15s_couchdb
+< 2015-08-27 11:09:21.661 CEST >ERROR:  table "_public_data_apg3_2015_08_27_11h_09m_21s_couchdb" does not exist
+< 2015-08-27 11:09:21.661 CEST >STATEMENT:  DROP TABLE _public_data_apg3_2015_08_27_11h_09m_21s_couchdb
+< 2015-08-27 11:11:54.462 CEST >ERROR:  table "_public_data_apg3_2015_08_27_11h_11m_54s_couchdb" does not exist
+< 2015-08-27 11:11:54.462 CEST >STATEMENT:  DROP TABLE _public_data_apg3_2015_08_27_11h_11m_54s_couchdb
+< 2015-08-27 12:14:02.711 CEST >ERROR:  table name "undefined" specified more than once
+< 2015-08-27 12:14:02.711 CEST >STATEMENT:  SELECT  "undefined".nombase , "undefined".nomnouvellebase , "undefined".mailutilisateur , "undefined".dateinvitation FROM  "_importbases" "undefined" , "_invitations" "undefined"  ;  
+< 2015-08-27 15:00:31.372 CEST >WARNING:  pgstat wait timeout
+< 2015-08-27 15:33:49.587 CEST >ERROR:  syntax error at or near ".2" at character 144
+< 2015-08-27 15:33:49.587 CEST >STATEMENT:  SELECT  a.auteur , a._id , a.nom , a.notes , a._parent , a.refbib , b.auteur , b._id , b.nom , b.notes , b._parent , b.refbib FROM  apg3.regnum.2 a , apg3.subclassis.2.1.4 b  ;  
+< 2015-08-27 15:34:14.558 CEST >ERROR:  syntax error at or near ".2" at character 84
+< 2015-08-27 15:34:14.558 CEST >STATEMENT:  SELECT  a.auteur , a._id , a.nom , a.notes , a._parent , a.refbib FROM  apg3.regnum.2 a  ;  
+< 2015-08-27 17:47:01.900 CEST >WARNING:  pgstat wait timeout
+< 2015-08-27 20:21:23.878 CEST >ERROR:  syntax error at or near "." at character 44
+< 2015-08-27 20:21:23.878 CEST >STATEMENT:  SELECT  *  FROM  "apg3.regnum.2" a WHERE   .  =    ;  
+< 2015-08-27 20:41:17.744 CEST >WARNING:  pgstat wait timeout
+< 2015-08-27 20:55:07.281 CEST >WARNING:  pgstat wait timeout

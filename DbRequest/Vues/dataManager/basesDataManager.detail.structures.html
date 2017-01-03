@@ -1,0 +1,11 @@
+<div>
+  <a>{{ 'DETAIL_STRUCTURES_BASE' | translate }}</a>
+</div>
+<ul class="list-group">
+  <li class="list-group-item" ng-repeat="structure in structuresDeLaBaseSelectionnee">
+    <a ui-sref="dataManager.structure.detail({structureId:structure.id})">{{structure.name}}</a>
+  </li>
+</ul>  
+<div>
+            <button data-ng-hide="flagImportationEnCours || flagDemandeImportationEnCours" class="btn btn-primary" ui-sref="dataManager.detail.nouvelleImportation()">{{ 'DETAIL_STRUCTURES_BASE_IMPORTEZ' | translate }}</button>
+</div>   

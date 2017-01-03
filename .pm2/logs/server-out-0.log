@@ -1,0 +1,517 @@
+﻿161130/162608.269, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (12ms) 
+161130/162903.071, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (11ms) 
+161130/180308.653, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (8ms) 
+161130/181505.004, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (11ms) 
+161130/182349.160, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (9ms) 
+161130/184421.161, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (9ms) 
+161130/192332.017, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (10ms) 
+161130/192541.958, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (9ms) 
+161201/100221.020, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (11ms) 
+161202/061718.208, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (10ms) 
+161202/061935.432, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (10ms) 
+161202/064455.202, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (9ms) 
+161202/064732.331, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (8ms) 
+161202/084840.320, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (9ms) 
+161202/084920.621, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/basesUtilisateur {} [33m401[0m (3ms) 
+161202/084920.625, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [33m401[0m (2ms) 
+161202/084922.267, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager {} [33m401[0m (3ms) 
+161202/084923.214, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (9ms) 
+161202/084923.251, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager {} [33m401[0m (2ms) 
+payload nomUtilisateur OK perezj
+payload motDePasse OK 62169f3fc95af38c28563245424fd8ab60b445d1d37fe1403cc8255a5284e820
+161202/084925.537, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/utilisateur/connexion {} [32m200[0m (24ms) 
+161202/084925.706, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (72ms) 
+Echec authentification :
+null
+401
+161202/084925.698, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/basesUtilisateur {} [32m200[0m (143ms) 
+{ ok: true,
+  userCtx: 
+   { name: 'perezj',
+     roles: 
+      [ 'stability.admin',
+        'ecosfix.admin',
+        'magena.writer',
+        'evarclis.admin',
+        'evarclis_work.admin',
+        'evarclis_plat.admin',
+        'dev_ecosfix.admin',
+        'createdb',
+        'dropdb',
+        'test_rconde.admin',
+        'stability_work.admin',
+        'save_stability.admin',
+        'save_ecosfix.admin' ] },
+  info: 
+   { authentication_db: '_users',
+     authentication_handlers: [ 'oauth', 'cookie', 'default' ],
+     authenticated: 'cookie' } }
+161202/084926.842, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager {} [32m200[0m (93ms) 
+161202/084927.023, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (6ms) 
+161202/084927.021, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/basesUtilisateur {} [32m200[0m (916ms) 
+161202/085005.149, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (9ms) 
+161202/085025.122, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (3ms) 
+161202/085045.125, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (4ms) 
+161202/085105.115, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (3ms) 
+161202/085125.125, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (4ms) 
+161202/085145.116, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (4ms) 
+161202/085205.118, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (3ms) 
+161202/085225.121, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (4ms) 
+161202/085245.132, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (4ms) 
+161202/085305.126, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (6ms) 
+161202/085325.113, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (4ms) 
+161202/085345.134, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (3ms) 
+161202/085405.110, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (3ms) 
+161202/085425.112, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (5ms) 
+161202/085445.137, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (3ms) 
+161202/085505.129, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (4ms) 
+161202/085525.112, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (4ms) 
+161202/085545.156, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (3ms) 
+161202/085605.122, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (3ms) 
+161202/085625.118, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (5ms) 
+161202/085645.137, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (4ms) 
+161202/085705.131, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (5ms) 
+161202/085725.119, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (3ms) 
+161202/085745.118, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (2ms) 
+161202/085805.123, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (6ms) 
+161202/085825.115, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (3ms) 
+161202/085845.124, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (3ms) 
+161202/085905.113, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (6ms) 
+161202/085925.123, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (3ms) 
+161202/085945.124, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (6ms) 
+161202/090005.137, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (5ms) 
+161202/090025.143, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (5ms) 
+161202/090045.115, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (3ms) 
+161202/090105.147, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (5ms) 
+161202/090125.128, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (3ms) 
+161202/090145.133, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (4ms) 
+161202/090205.139, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (3ms) 
+161202/090225.133, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (4ms) 
+161202/090245.119, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (4ms) 
+161202/090305.119, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (4ms) 
+161202/090325.118, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (4ms) 
+161202/090345.145, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (4ms) 
+161202/090405.119, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (5ms) 
+161202/090425.134, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (4ms) 
+161202/090445.125, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (4ms) 
+161202/090505.157, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (3ms) 
+161202/090525.119, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (4ms) 
+161202/090545.139, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (4ms) 
+161202/090605.125, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (2ms) 
+161202/090625.123, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (3ms) 
+161202/090645.120, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (3ms) 
+161202/090705.124, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (3ms) 
+161202/090725.142, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (5ms) 
+161202/090745.135, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (3ms) 
+161202/090805.127, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (4ms) 
+161202/090825.137, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (4ms) 
+161202/090845.132, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (5ms) 
+161202/090905.133, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (3ms) 
+161202/090925.133, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (9ms) 
+161202/090945.129, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (3ms) 
+161202/094531.839, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (13ms) 
+161202/095047.553, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (11ms) 
+161204/071743.173, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (11ms) 
+161204/072040.831, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (9ms) 
+161204/073155.866, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (9ms) 
+161204/073654.218, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (9ms) 
+161204/081623.909, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (10ms) 
+161204/082438.203, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (8ms) 
+161204/082802.822, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (11ms) 
+161205/063750.261, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (9ms) 
+161205/064904.375, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (9ms) 
+161205/065709.249, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (9ms) 
+161205/065922.789, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (8ms) 
+161205/083638.315, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (8ms) 
+161205/085059.437, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (9ms) 
+161205/085709.147, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (11ms) 
+161205/092445.889, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (8ms) 
+161205/095152.461, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (12ms) 
+161205/131101.283, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (10ms) 
+161205/133614.817, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (8ms) 
+161205/134115.618, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (8ms) 
+161205/134207.855, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m / {} [32m200[0m (103ms) 
+161205/134208.235, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /docs/swaggerui/css/highlight.default.css {} [32m200[0m (29ms) 
+161205/134208.250, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /docs/swaggerui/css/screen.css {} [32m200[0m (26ms) 
+161205/134208.252, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /docs/swaggerui/lib/jquery.wiggle.min.js {} [32m200[0m (25ms) 
+161205/134208.253, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /docs/swaggerui/lib/jquery.slideto.min.js {} [32m200[0m (29ms) 
+161205/134208.250, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /docs/swaggerui/lib/shred.bundle.js {} [32m200[0m (41ms) 
+161205/134208.252, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /docs/swaggerui/lib/jquery-1.8.0.min.js {} [32m200[0m (47ms) 
+161205/134208.313, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /docs/swaggerui/lib/jquery.ba-bbq.min.js {} [32m200[0m (2ms) 
+161205/134208.338, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /docs/swaggerui/lib/underscore-min.js {} [32m200[0m (3ms) 
+161205/134208.330, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /docs/swaggerui/lib/handlebars-1.0.0.js {} [32m200[0m (17ms) 
+161205/134208.353, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /docs/swaggerui/lib/backbone-min.js {} [32m200[0m (4ms) 
+161205/134208.377, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /docs/swaggerui/lib/swagger.js {} [32m200[0m (4ms) 
+161205/134208.392, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /docs/swaggerui/lib/highlight.7.3.pack.js {} [32m200[0m (4ms) 
+161205/134208.383, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /docs/swaggerui/swagger-ui.js {} [32m200[0m (18ms) 
+161205/134208.415, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /docs/custom.js {} [32m200[0m (1ms) 
+161205/134208.540, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /docs/swaggerui/images/logo_small.png {} [32m200[0m (2ms) 
+161205/134208.562, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /docs {} [32m200[0m (7ms) 
+161205/134208.784, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /favicon.ico {} [33m404[0m (2ms) 
+161205/134208.808, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /docs {"path":"api"} [32m200[0m (7ms) 
+161205/134208.855, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /docs/swaggerui/images/throbber.gif {} [32m200[0m (2ms) 
+161205/134938.178, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [33m401[0m (6ms) 
+161205/134938.180, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/basesUtilisateur {} [33m401[0m (5ms) 
+161205/142356.363, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (8ms) 
+161205/142358.850, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/tables/liste/ecosfix {} [33m401[0m (2ms) 
+payload nomUtilisateur OK Luis
+payload motDePasse OK e0eb24fd7653c68d751b5e8fcb579f718c495295b14372287a4e3ac78d9ba977
+161205/142400.693, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/utilisateur/connexion {} [32m200[0m (23ms) 
+161205/142400.750, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/tables/liste/ecosfix {} [32m200[0m (10ms) 
+161205/142400.827, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/tables/details/ecosfix {} [32m200[0m (23ms) 
+161205/142422.515, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/tables/liste/ecosfix {} [32m200[0m (6ms) 
+161205/142422.509, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/requetes/liste/ecosfix {} [32m200[0m (13ms) 
+161205/142422.672, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/tables/details/ecosfix {} [32m200[0m (15ms) 
+161205/142426.338, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/requetes/detail/selection {} [32m200[0m (17ms) 
+161205/142426.340, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/requetes/detail/champs {} [32m200[0m (17ms) 
+161205/142426.341, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/requetes/detail/groupby {} [32m200[0m (27ms) 
+161205/142426.342, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/requetes/detail/jointure {} [32m200[0m (28ms) 
+161205/142426.343, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/requetes/detail/tri {} [32m200[0m (28ms) 
+SELECT 
+a."_id" AS "a._id" ,
+a."_parent" AS "a._parent" ,
+a."experimental_site" AS "a.experimental_site" ,
+a."site" AS "a.site" ,
+a."country" AS "a.country" ,
+a."gps_coord" AS "a.gps_coord" ,
+a."altitude" AS "a.altitude" ,
+a."geographical_site" AS "a.geographical_site" ,
+a."average_slope" AS "a.average_slope" ,
+a."annual_temperature" AS "a.annual_temperature" ,
+a."coldest_air_temp" AS "a.coldest_air_temp" ,
+a."hotest_air_temp" AS "a.hotest_air_temp" ,
+a."annual_rainfall" AS "a.annual_rainfall" ,
+b."_id" AS "b._id" ,
+b."_parent" AS "b._parent" ,
+b."sample" AS "b.sample" ,
+b."date" AS "b.date" ,
+b."l" AS "b.l" ,
+b."pa" AS "b.pa" ,
+b."sa" AS "b.sa" ,
+b."v" AS "b.v" ,
+b."dm" AS "b.dm" ,
+b."rdm" AS "b.rdm" ,
+b."rfm" AS "b.rfm" ,
+b."frdm" AS "b.frdm" ,
+b."rdmc" AS "b.rdmc" ,
+b."rtd" AS "b.rtd" ,
+b."srl" AS "b.srl" ,
+b."sra" AS "b.sra" ,
+b."lonv" AS "b.lonv" ,
+b."vfrl" AS "b.vfrl" ,
+b."frl" AS "b.frl" ,
+b."mrl" AS "b.mrl" ,
+b."crl" AS "b.crl" ,
+b."rldv" AS "b.rldv" ,
+b."rmdv" AS "b.rmdv" ,
+b."rldm" AS "b.rldm" ,
+b."rmdm" AS "b.rmdm" ,
+b."rcc" AS "b.rcc" ,
+b."rnc" AS "b.rnc" ,
+b."conn" AS "b.conn" ,
+b."ash" AS "b.ash" ,
+b."soluble_om" AS "b.soluble_om" ,
+b."hemicellulose_om" AS "b.hemicellulose_om" ,
+b."cellulose_om" AS "b.cellulose_om" ,
+b."lignin_om" AS "b.lignin_om" ,
+b."rm" AS "b.rm" ,
+b."k" AS "b.k" ,
+b."rmpot" AS "b.rmpot" ,
+b."kpot" AS "b.kpot" ,
+b."toc-roots" AS "b.toc-roots" ,
+b."tn-roots" AS "b.tn-roots" ,
+b."toc/tn-roots" AS "b.toc/tn-roots" ,
+b."d13c_rcc" AS "b.d13c_rcc" ,
+b."d15n_rnc" AS "b.d15n_rnc" ,
+b."roots-e" AS "b.roots-e" ,
+b."time" AS "b.time" ,
+b."manipulator" AS "b.manipulator" ,
+b."comment" AS "b.comment"
+FROM 
+"sites.site.0" a ,
+"root_traits.root_trait.0" b
+ ; 
+161205/142512.763, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/requetes/modification {} [32m200[0m (123ms) 
+161205/142522.978, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/requetes/resultat/Requete_sites.site.0_Luis_ecosfix.csv {} [32m200[0m (21ms) 
+SELECT  a."_id" AS "a._id" , a."_parent" AS "a._parent" , a."experimental_site" AS "a.experimental_site" , a."site" AS "a.site" , a."country" AS "a.country" , a."gps_coord" AS "a.gps_coord" , a."altitude" AS "a.altitude" , a."geographical_site" AS "a.geographical_site" , a."average_slope" AS "a.average_slope" , a."annual_temperature" AS "a.annual_temperature" , a."coldest_air_temp" AS "a.coldest_air_temp" , a."hotest_air_temp" AS "a.hotest_air_temp" , a."annual_rainfall" AS "a.annual_rainfall" , b."_id" AS "b._id" , b."_parent" AS "b._parent" , b."sample" AS "b.sample" , b."date" AS "b.date" , b."l" AS "b.l" , b."pa" AS "b.pa" , b."sa" AS "b.sa" , b."v" AS "b.v" , b."dm" AS "b.dm" , b."rdm" AS "b.rdm" , b."rfm" AS "b.rfm" , b."frdm" AS "b.frdm" , b."rdmc" AS "b.rdmc" , b."rtd" AS "b.rtd" , b."srl" AS "b.srl" , b."sra" AS "b.sra" , b."lonv" AS "b.lonv" , b."vfrl" AS "b.vfrl" , b."frl" AS "b.frl" , b."mrl" AS "b.mrl" , b."crl" AS "b.crl" , b."rldv" AS "b.rldv" , b."rmdv" AS "b.rmdv" , b."rldm" AS "b.rldm" , b."rmdm" AS "b.rmdm" , b."rcc" AS "b.rcc" , b."rnc" AS "b.rnc" , b."conn" AS "b.conn" , b."ash" AS "b.ash" , b."soluble_om" AS "b.soluble_om" , b."hemicellulose_om" AS "b.hemicellulose_om" , b."cellulose_om" AS "b.cellulose_om" , b."lignin_om" AS "b.lignin_om" , b."rm" AS "b.rm" , b."k" AS "b.k" , b."rmpot" AS "b.rmpot" , b."kpot" AS "b.kpot" , b."toc-roots" AS "b.toc-roots" , b."tn-roots" AS "b.tn-roots" , b."toc/tn-roots" AS "b.toc/tn-roots" , b."d13c_rcc" AS "b.d13c_rcc" , b."d15n_rnc" AS "b.d15n_rnc" , b."roots-e" AS "b.roots-e" , b."time" AS "b.time" , b."manipulator" AS "b.manipulator" , b."comment" AS "b.comment" FROM  "sites.site.0" a , "root_traits.root_trait.0" b  ;  
+Exécution de la requête N°  1
+Exécution requête Ok
+SELECT 
+a."_id" AS "a._id" ,
+a."_parent" AS "a._parent" ,
+a."experimental_site" AS "a.experimental_site" ,
+a."site" AS "a.site" ,
+a."country" AS "a.country" ,
+a."gps_coord" AS "a.gps_coord" ,
+a."altitude" AS "a.altitude" ,
+a."geographical_site" AS "a.geographical_site" ,
+a."average_slope" AS "a.average_slope" ,
+a."annual_temperature" AS "a.annual_temperature" ,
+a."coldest_air_temp" AS "a.coldest_air_temp" ,
+a."hotest_air_temp" AS "a.hotest_air_temp" ,
+a."annual_rainfall" AS "a.annual_rainfall" ,
+b."_id" AS "b._id" ,
+b."_parent" AS "b._parent" ,
+b."sample" AS "b.sample" ,
+b."date" AS "b.date" ,
+b."l" AS "b.l" ,
+b."pa" AS "b.pa" ,
+b."sa" AS "b.sa" ,
+b."v" AS "b.v" ,
+b."dm" AS "b.dm" ,
+b."rdm" AS "b.rdm" ,
+b."rfm" AS "b.rfm" ,
+b."frdm" AS "b.frdm" ,
+b."rdmc" AS "b.rdmc" ,
+b."rtd" AS "b.rtd" ,
+b."srl" AS "b.srl" ,
+b."sra" AS "b.sra" ,
+b."lonv" AS "b.lonv" ,
+b."vfrl" AS "b.vfrl" ,
+b."frl" AS "b.frl" ,
+b."mrl" AS "b.mrl" ,
+b."crl" AS "b.crl" ,
+b."rldv" AS "b.rldv" ,
+b."rmdv" AS "b.rmdv" ,
+b."rldm" AS "b.rldm" ,
+b."rmdm" AS "b.rmdm" ,
+b."rcc" AS "b.rcc" ,
+b."rnc" AS "b.rnc" ,
+b."conn" AS "b.conn" ,
+b."ash" AS "b.ash" ,
+b."soluble_om" AS "b.soluble_om" ,
+b."hemicellulose_om" AS "b.hemicellulose_om" ,
+b."cellulose_om" AS "b.cellulose_om" ,
+b."lignin_om" AS "b.lignin_om" ,
+b."rm" AS "b.rm" ,
+b."k" AS "b.k" ,
+b."rmpot" AS "b.rmpot" ,
+b."kpot" AS "b.kpot" ,
+b."toc-roots" AS "b.toc-roots" ,
+b."tn-roots" AS "b.tn-roots" ,
+b."toc/tn-roots" AS "b.toc/tn-roots" ,
+b."d13c_rcc" AS "b.d13c_rcc" ,
+b."d15n_rnc" AS "b.d15n_rnc" ,
+b."roots-e" AS "b.roots-e" ,
+b."time" AS "b.time" ,
+b."manipulator" AS "b.manipulator" ,
+b."comment" AS "b.comment"
+FROM 
+"sites.site.0" a ,
+"root_traits.root_trait.0" b
+ ; 
+fichier sauvegardé
+161205/142550.102, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/requetes/execution {} [32m200[0m (5351ms) 
+161205/142554.979, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/requetes/modification {} [32m200[0m (504ms) 
+161205/142602.854, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/requetes/resultat/Requete_sites.site.0_Luis_ecosfix.csv {} [32m200[0m (249ms) 
+161205/142722.965, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (8ms) 
+SELECT  a."_id" AS "a._id" , a."_parent" AS "a._parent" , a."experimental_site" AS "a.experimental_site" , a."site" AS "a.site" , a."country" AS "a.country" , a."gps_coord" AS "a.gps_coord" , a."altitude" AS "a.altitude" , a."geographical_site" AS "a.geographical_site" , a."average_slope" AS "a.average_slope" , a."annual_temperature" AS "a.annual_temperature" , a."coldest_air_temp" AS "a.coldest_air_temp" , a."hotest_air_temp" AS "a.hotest_air_temp" , a."annual_rainfall" AS "a.annual_rainfall" , b."_id" AS "b._id" , b."_parent" AS "b._parent" , b."sample" AS "b.sample" , b."date" AS "b.date" , b."l" AS "b.l" , b."pa" AS "b.pa" , b."sa" AS "b.sa" , b."v" AS "b.v" , b."dm" AS "b.dm" , b."rdm" AS "b.rdm" , b."rfm" AS "b.rfm" , b."frdm" AS "b.frdm" , b."rdmc" AS "b.rdmc" , b."rtd" AS "b.rtd" , b."srl" AS "b.srl" , b."sra" AS "b.sra" , b."lonv" AS "b.lonv" , b."vfrl" AS "b.vfrl" , b."frl" AS "b.frl" , b."mrl" AS "b.mrl" , b."crl" AS "b.crl" , b."rldv" AS "b.rldv" , b."rmdv" AS "b.rmdv" , b."rldm" AS "b.rldm" , b."rmdm" AS "b.rmdm" , b."rcc" AS "b.rcc" , b."rnc" AS "b.rnc" , b."conn" AS "b.conn" , b."ash" AS "b.ash" , b."soluble_om" AS "b.soluble_om" , b."hemicellulose_om" AS "b.hemicellulose_om" , b."cellulose_om" AS "b.cellulose_om" , b."lignin_om" AS "b.lignin_om" , b."rm" AS "b.rm" , b."k" AS "b.k" , b."rmpot" AS "b.rmpot" , b."kpot" AS "b.kpot" , b."toc-roots" AS "b.toc-roots" , b."tn-roots" AS "b.tn-roots" , b."toc/tn-roots" AS "b.toc/tn-roots" , b."d13c_rcc" AS "b.d13c_rcc" , b."d15n_rnc" AS "b.d15n_rnc" , b."roots-e" AS "b.roots-e" , b."time" AS "b.time" , b."manipulator" AS "b.manipulator" , b."comment" AS "b.comment" FROM  "sites.site.0" a , "root_traits.root_trait.0" b  ;  
+Exécution de la requête N°  1
+Exécution requête Ok
+fichier sauvegardé
+161205/143938.072, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/requetes/detail/champs {} [32m200[0m (12ms) 
+161205/143938.085, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/requetes/detail/selection {} [32m200[0m (25ms) 
+161205/143938.091, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/requetes/detail/tri {} [32m200[0m (26ms) 
+161205/143938.092, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/requetes/detail/jointure {} [32m200[0m (34ms) 
+161205/143938.095, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/requetes/detail/groupby {} [32m200[0m (31ms) 
+161205/143933.174, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/requetes/execution {} [32m200[0m (5239ms) 
+161205/143956.152, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/requetes/detail/champs {} [32m200[0m (15ms) 
+161205/143956.156, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/requetes/detail/selection {} [32m200[0m (12ms) 
+161205/143956.164, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/requetes/detail/groupby {} [32m200[0m (6ms) 
+161205/143956.160, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/requetes/detail/tri {} [32m200[0m (11ms) 
+161205/143956.162, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/requetes/detail/jointure {} [32m200[0m (10ms) 
+SELECT  a."_id" AS "a._id" , a."_parent" AS "a._parent" , a."sample" AS "a.sample" , a."date" AS "a.date" , a."l" AS "a.l" , a."pa" AS "a.pa" , a."sa" AS "a.sa" , a."v" AS "a.v" , a."dm" AS "a.dm" , a."rdm" AS "a.rdm" , a."rfm" AS "a.rfm" , a."frdm" AS "a.frdm" , a."rdmc" AS "a.rdmc" , a."rtd" AS "a.rtd" , a."srl" AS "a.srl" , a."sra" AS "a.sra" , a."lonv" AS "a.lonv" , a."vfrl" AS "a.vfrl" , a."frl" AS "a.frl" , a."mrl" AS "a.mrl" , a."crl" AS "a.crl" , a."rldv" AS "a.rldv" , a."rmdv" AS "a.rmdv" , a."rldm" AS "a.rldm" , a."rmdm" AS "a.rmdm" , a."rcc" AS "a.rcc" , a."rnc" AS "a.rnc" , a."conn" AS "a.conn" , a."ash" AS "a.ash" , a."soluble_om" AS "a.soluble_om" , a."hemicellulose_om" AS "a.hemicellulose_om" , a."cellulose_om" AS "a.cellulose_om" , a."lignin_om" AS "a.lignin_om" , a."rm" AS "a.rm" , a."k" AS "a.k" , a."rmpot" AS "a.rmpot" , a."kpot" AS "a.kpot" , a."toc-roots" AS "a.toc-roots" , a."tn-roots" AS "a.tn-roots" , a."toc/tn-roots" AS "a.toc/tn-roots" , a."d13c_rcc" AS "a.d13c_rcc" , a."d15n_rnc" AS "a.d15n_rnc" , a."roots-e" AS "a.roots-e" , a."time" AS "a.time" , a."manipulator" AS "a.manipulator" , a."comment" AS "a.comment" FROM  "root_traits.root_trait.0" a  ;  
+Exécution de la requête N°  4
+Exécution requête Ok
+fichier sauvegardé
+161205/144003.049, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/requetes/execution {} [32m200[0m (515ms) 
+161205/151237.918, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [33m401[0m (3ms) 
+161205/151237.922, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/basesUtilisateur {} [33m401[0m (2ms) 
+161205/151247.482, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager {} [33m401[0m (2ms) 
+161205/151248.117, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (7ms) 
+payload nomUtilisateur OK perezj
+payload motDePasse OK 62169f3fc95af38c28563245424fd8ab60b445d1d37fe1403cc8255a5284e820
+161205/151249.527, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/utilisateur/connexion {} [32m200[0m (6ms) 
+Echec authentification :
+null
+401
+161205/151249.700, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/basesUtilisateur {} [32m200[0m (315ms) 
+161205/151250.413, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (4ms) 
+{ ok: true,
+  userCtx: 
+   { name: 'perezj',
+     roles: 
+      [ 'stability.admin',
+        'ecosfix.admin',
+        'magena.writer',
+        'evarclis.admin',
+        'evarclis_work.admin',
+        'evarclis_plat.admin',
+        'dev_ecosfix.admin',
+        'createdb',
+        'dropdb',
+        'test_rconde.admin',
+        'stability_work.admin',
+        'save_stability.admin',
+        'save_ecosfix.admin' ] },
+  info: 
+   { authentication_db: '_users',
+     authentication_handlers: [ 'oauth', 'cookie', 'default' ],
+     authenticated: 'cookie' } }
+161205/151250.878, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager {} [32m200[0m (2964ms) 
+161205/151254.357, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (3ms) 
+161205/151253.906, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/basesUtilisateur {} [32m200[0m (6817ms) 
+161205/151320.869, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (4ms) 
+161205/151340.879, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (3ms) 
+161205/151401.642, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/utilisateurs/liste {} [32m200[0m (5ms) 
+161205/151402.643, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/utilisateurs/liste {} [32m200[0m (4ms) 
+161205/151411.423, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/utilisateur/mailexiste {} [32m200[0m (4ms) 
+161205/151411.595, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/utilisateur/mailexiste {} [32m200[0m (3ms) 
+161205/151411.815, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/utilisateur/mailexiste {} [32m200[0m (3ms) 
+161205/151411.991, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/utilisateur/mailexiste {} [32m200[0m (3ms) 
+161205/151412.479, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/utilisateur/mailexiste {} [32m200[0m (3ms) 
+161205/151412.665, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/utilisateur/mailexiste {} [32m200[0m (3ms) 
+161205/151413.959, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/utilisateur/mailexiste {} [32m200[0m (3ms) 
+161205/151414.263, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/utilisateur/mailexiste {} [32m200[0m (4ms) 
+161205/151414.438, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/utilisateur/mailexiste {} [32m200[0m (3ms) 
+161205/151416.192, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/utilisateurs/invitation {} [32m200[0m (12ms) 
+161205/151416.284, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/utilisateurs/liste {} [32m200[0m (3ms) 
+161206/101859.623, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/basesUtilisateur {} [33m401[0m (5ms) 
+161206/101859.631, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [33m401[0m (2ms) 
+161206/134106.781, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (11ms) 
+161206/151839.572, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (9ms) 
+161206/153003.682, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (9ms) 
+161207/105321.466, [log,info], data: Server running at: http://vmecosfix-preprod.ird.fr:3000
+161207/105329.763, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/basesUtilisateur {} [33m401[0m (21ms) 
+161207/105329.786, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [33m401[0m (5ms) 
+161207/105331.682, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager {} [33m401[0m (2ms) 
+161207/105332.421, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (20ms) 
+161207/105332.442, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager {} [33m401[0m (2ms) 
+payload nomUtilisateur OK perezj
+payload motDePasse OK 62169f3fc95af38c28563245424fd8ab60b445d1d37fe1403cc8255a5284e820
+161207/105336.233, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/utilisateur/connexion {} [32m200[0m (33ms) 
+161207/105336.551, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (64ms) 
+Echec authentification :
+null
+401
+161207/105336.556, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/basesUtilisateur {} [32m200[0m (158ms) 
+{ ok: true,
+  userCtx: 
+   { name: 'perezj',
+     roles: 
+      [ 'stability.admin',
+        'ecosfix.admin',
+        'magena.writer',
+        'evarclis.admin',
+        'evarclis_work.admin',
+        'evarclis_plat.admin',
+        'dev_ecosfix.admin',
+        'createdb',
+        'dropdb',
+        'test_rconde.admin',
+        'stability_work.admin',
+        'save_stability.admin',
+        'save_ecosfix.admin' ] },
+  info: 
+   { authentication_db: '_users',
+     authentication_handlers: [ 'oauth', 'cookie', 'default' ],
+     authenticated: 'cookie' } }
+161207/105337.778, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager {} [32m200[0m (100ms) 
+161207/105337.970, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (4ms) 
+161207/105337.964, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/basesUtilisateur {} [32m200[0m (994ms) 
+161207/105339.999, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/utilisateurs/liste {} [32m200[0m (9ms) 
+161207/105348.726, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/basesUtilisateur {} [33m401[0m (2ms) 
+161207/105348.736, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [33m401[0m (2ms) 
+161207/105520.660, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/utilisateur/mailexiste {} [32m200[0m (10ms) 
+161207/105522.924, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/utilisateurs/invitation {} [32m200[0m (61ms) 
+161207/105523.046, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/utilisateurs/liste {} [32m200[0m (6ms) 
+161207/150036.205, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (12ms) 
+161207/153038.169, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (9ms) 
+161207/153102.756, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (4ms) 
+payload nomUtilisateur OK rapha
+payload motDePasse OK 8cd388cf42814f0c4fbc0b2092d05e4def90c1ced16240fbcd06a52c53d14c01
+161207/153115.605, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/utilisateur/connexion {} [32m200[0m (8ms) 
+161207/153115.676, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (3ms) 
+161207/153126.047, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/tables/liste/guyane13 {} [32m200[0m (45ms) 
+161207/153126.156, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/tables/details/guyane13 {} [32m200[0m (10ms) 
+161207/153129.604, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/requetes/liste/guyane13 {} [32m200[0m (9ms) 
+161207/153129.609, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/tables/liste/guyane13 {} [32m200[0m (5ms) 
+161207/153129.669, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/tables/details/guyane13 {} [32m200[0m (8ms) 
+161207/153133.255, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/tables/liste/guyane13 {} [32m200[0m (4ms) 
+161207/153133.312, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/tables/details/guyane13 {} [32m200[0m (9ms) 
+161207/153155.023, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (5ms) 
+Echec authentification :
+null
+401
+161207/153155.018, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/basesUtilisateur {} [32m200[0m (135ms) 
+161207/153159.305, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (3ms) 
+161207/153200.979, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/utilisateurs/liste {} [32m200[0m (5ms) 
+161207/153210.656, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (3ms) 
+161207/153221.203, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (4ms) 
+Echec authentification :
+null
+401
+161207/153221.199, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/basesUtilisateur {} [32m200[0m (55ms) 
+161207/153223.690, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (3ms) 
+161207/153225.265, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/requetes/liste/guyane13 {} [32m200[0m (3ms) 
+161207/153225.269, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/tables/liste/guyane13 {} [32m200[0m (10ms) 
+161207/153225.351, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/tables/details/guyane13 {} [32m200[0m (7ms) 
+161207/153242.439, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/utilisateur/deconnexion {} [32m200[0m (4ms) 
+161207/153242.531, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (2ms) 
+161207/153250.998, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (3ms) 
+161207/153353.624, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (8ms) 
+161207/154134.890, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (11ms) 
+161207/154511.248, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (10ms) 
+161207/161011.744, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (9ms) 
+161207/162039.783, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (9ms) 
+161207/162329.489, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (11ms) 
+161207/165816.709, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (9ms) 
+161207/182908.525, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (10ms) 
+161208/055658.496, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (122ms) 
+161208/061301.583, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (10ms) 
+161208/080154.678, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (10ms) 
+161208/082356.736, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (9ms) 
+161208/082652.655, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (8ms) 
+Mailer interface loaded
+161208/084132.956, [log,info], data: Server running at: http://vmecosfix-preprod.ird.fr:3000
+161208/135711.185, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [33m401[0m (25ms) 
+161208/135711.203, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/basesUtilisateur {} [33m401[0m (11ms) 
+161208/135717.057, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager {} [33m401[0m (2ms) 
+161208/135722.092, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/bases/liste {} [32m200[0m (30ms) 
+161208/135722.245, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager {} [33m401[0m (3ms) 
+payload nomUtilisateur OK perezj
+payload motDePasse OK 62169f3fc95af38c28563245424fd8ab60b445d1d37fe1403cc8255a5284e820
+161208/135731.911, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/utilisateur/connexion {} [32m200[0m (11ms) 
+161208/135732.238, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (8ms) 
+Echec authentification :
+null
+401
+161208/135732.253, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/basesUtilisateur {} [32m200[0m (153ms) 
+{ ok: true,
+  userCtx: 
+   { name: 'perezj',
+     roles: 
+      [ 'stability.admin',
+        'ecosfix.admin',
+        'magena.writer',
+        'evarclis.admin',
+        'evarclis_work.admin',
+        'evarclis_plat.admin',
+        'dev_ecosfix.admin',
+        'createdb',
+        'dropdb',
+        'test_rconde.admin',
+        'stability_work.admin',
+        'save_stability.admin',
+        'save_ecosfix.admin' ] },
+  info: 
+   { authentication_db: '_users',
+     authentication_handlers: [ 'oauth', 'cookie', 'default' ],
+     authenticated: 'cookie' } }
+161208/135734.342, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager {} [32m200[0m (106ms) 
+161208/135734.677, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/importBaseEnCours {} [32m200[0m (3ms) 
+161208/135734.584, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/dataManager/basesUtilisateur {} [32m200[0m (2026ms) 
+161208/135740.766, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/utilisateurs/liste {} [32m200[0m (7ms) 
+161208/135750.928, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/utilisateur/mailexiste {} [32m200[0m (4ms) 
+161208/135752.096, [response], http://vmecosfix-preprod.ird.fr:3000: [1;33mpost[0m /api/utilisateurs/invitation {} [32m200[0m (7ms) 
+161208/135752.264, [response], http://vmecosfix-preprod.ird.fr:3000: [1;32mget[0m /api/utilisateurs/liste {} [32m200[0m (5ms) 

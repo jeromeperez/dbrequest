@@ -1,0 +1,29 @@
+<div class="panel panel-default">
+    <div class="panel-body">
+		<div>
+			<button class="btn btn-primary" ng-click="executezRequete()"> {{ 'REQUETE_CONSTRUCTEUR_EXECUTEZ_REQUETE' | translate }}</button>
+			<button class="btn btn-primary" data-ng-show="requeteModifiee" ng-click="modifiezRequete()">{{ 'REQUETE_CONSTRUCTEUR_MODIFIEZ_REQUETE' | translate }}</button>
+			<button class="btn btn-primary" ng-click="telechargezRequete()">{{ 'REQUETE_CONSTRUCTEUR_TELECHARGEZ_REQUETE' | translate }}</button>
+			<button class="btn btn-primary" ng-click="telechargezResultat()">{{ 'REQUETE_CONSTRUCTEUR_TELECHARGEZ_RESULTAT' | translate }}</button>
+		</div>
+	</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-body">
+		<tabset>
+    		<tab ui-sref="requetes.detail.editeur">
+      			<tab-heading>
+        			{{ 'REQUETE_CONSTRUCTEUR_MENU_EDITION' | translate }}
+      			</tab-heading>
+    		</tab>
+    		<tab ui-sref="requetes.detail.constructeur" active=true>
+      			<tab-heading>
+        			{{ 'REQUETE_CONSTRUCTEUR_MENU_CONSTRUCTION' | translate }}
+      			</tab-heading>
+    		</tab>
+    </tabset>
+    <br>
+    <div ui-view class="span9 slide"></div>
+	</div>
+	
+</div>

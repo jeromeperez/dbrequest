@@ -1,0 +1,15 @@
+<div class="container">
+	<div class="row">
+  		<div class="span3">
+    		<div class="pa-sidebar well well-small">
+      			<ul class="nav nav-list">
+        			<li ng-class="{ active: $state.includes('tables.liste') }">
+        				<p class="lead" ui-sref="tables.liste">{{ 'TABLES_TOUTES_LES_TABLES' | translate }} : <strong>{{laBaseSelectionnee}}</strong></p>
+        			</li>
+      			</ul>
+				<div ui-view="tableIdentification" class="slide"></div>
+    		</div>
+  		</div>
+  		<div ui-view class="span9 slide"></div>
+	</div>
+</div>

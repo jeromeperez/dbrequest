@@ -1,0 +1,27 @@
+<div>
+  <a>{{ 'DATAMANAGER_DETAIL_DETAIL_DES_IMPORTATIONS' | translate }} : </a>
+</div>
+
+
+
+
+
+<div class="row">
+
+    <!-- Colonne détail des importations -->
+    <div class="col-sm-5">
+    	<ul class="list-group">
+  			<li class="list-group-item" ng-repeat="importation in importationsDeLaBaseSelectionnee">
+    			<a ui-sref="dataManager.detail.detailsImportation({importationId:importation.extentiondate})">{{ 'DATAMANAGER_DETAIL_NOM_BASE_DBREQUEST' | translate }} : <br>
+    			   {{importation.nomnouvellebase}} <br> {{ 'DATAMANAGER_DETAIL_DATE_IMPORTATION' | translate }} : <br> 
+    			    {{importation.dateimport | date:'dd/MM/yyyy HH:mm:ss'}}</a>
+  			</li>
+		</ul>   	
+    </div>
+    
+    <!-- Colonne détails d'une importation -->
+    <div class="col-sm-7">
+		<div ui-view="detailDetailsImportation"></div>
+	</div>
+	
+</div>  

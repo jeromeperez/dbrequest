@@ -1,0 +1,12 @@
+<div>
+	<table class="table table-bordered table-hover table-condensed">
+  		<tr>
+            <th ng-repeat="(key, val) in donneesEnSortie[0] ">{{key}}</th>
+        </tr>
+        <div id="scrollArea" style="overflow: auto; height:120px;">
+        	<tr ng-repeat="ligneDonnees in donneesEnSortie">
+            	<td ng-repeat="(key, val) in ligneDonnees ">{{val}}</td>
+        	</tr>
+		<div>
+	</table>
+</div>

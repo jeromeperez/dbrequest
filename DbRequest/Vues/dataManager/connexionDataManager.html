@@ -1,0 +1,33 @@
+
+<div class="modal-content">
+	<div class="modal-header">
+		<h3 class="modal-title">{{ 'CONNEXION_DATAMANAGER' | translate }}</h3>
+	</div>
+	<form name="formulaireSignature" ng-submit="connexion(formulaireSignature.$valid ,signatureUtilisateurDataManager)" novalidate>
+		<div class="modal-body">
+			<div class="form-group" ng-class="{ 'has-error' : formulaireSignature.name.$invalid && !formulaireSignature.name.$pristine || formulaireSignature.name.$pristine && submitted   }">
+  				<label for="name">{{ 'CONNEXION_NOM_UTILISATEUR' | translate }}</label>
+  				<input type="text" name="name" class="form-control"
+         		ng-model="signatureUtilisateurDataManager.name" required
+         		placeholder="{{ 'CONNEXION_NOM_UTILISATEUR_PLACEHOLDER' | translate }}">
+         		<p ng-show="formulaireSignature.name.$invalid && !formulaireSignature.name.$pristine || formulaireSignature.name.$pristine && submitted " class="help-block">{{ 'CONNEXION_NOM_UTILISATEUR_ERREUR_REQ' | translate }}</p>
+         	</div>
+         		
+  			<div class="form-group" ng-class="{ 'has-error' : formulaireSignature.password.$invalid && !formulaireSignature.password.$pristine || formulaireSignature.password.$pristine && submitted   }"> 
+  				<label for="password">{{ 'CONNEXION_MDP_UTILISATEUR' | translate }}</label>
+  				<input type="password" name="password" class="form-control"
+         		ng-model="signatureUtilisateurDataManager.password" required
+         		placeholder="{{ 'CONNEXION_MDP_UTILISATEUR_PLACEHOLDER' | translate }}">
+         		<p ng-show="formulaireSignature.password.$invalid && !formulaireSignature.password.$pristine || formulaireSignature.password.$pristine && submitted " class="help-block">{{ 'CONNEXION_MDP_UTILISATEUR_ERREUR' | translate }}</p>
+ 			</div>
+ 		</div>
+ 	
+    	<div class="modal-footer">
+            <button type="submit" class="btn btn-primary">{{ 'CONNEXION' | translate }}</button>
+            <button class="btn btn-warning" ng-click="annulation()">{{ 'ANNULEZ' | translate }}</button>
+    	</div>
+    </form>
+
+
+	
+</div>

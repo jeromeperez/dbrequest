@@ -1,0 +1,17 @@
+<div class="modal-content">
+	<div class="modal-header">
+		<h3 class="modal-title">{{ 'DETAIL_STRUCTURES_BASE_SUPPRESSION_BASE' | translate }} {{$stateParams.baseDataManagerId}}</h3>
+	</div>
+	
+	<div class="modal-body">
+		<a class="modal-title">{{ 'DETAIL_STRUCTURES_BASE_SUPPRIMEZ_MESSAGE_CONFIRMATION' | translate }}</a>
+		<br>
+		<a class="modal-title">{{ 'DETAIL_STRUCTURES_BASE_SUPPRIMEZ_MESSAGE_CONFIRMATION_2' | translate }}</a> 
+		<a class="modal-title">{{ 'DETAIL_STRUCTURES_BASE_SUPPRIMEZ_MESSAGE_CONFIRMATION_3' | translate }}</a>        
+ 	</div>
+    <div class="modal-footer">
+    	<button class="btn btn-primary" ng-click="suppressionDetailImportBase($stateParams.baseDataManagerId , $stateParams.detailId )" ng-hide="flagImportationEnCours || flagDemandeImportationEnCours" >{{ 'SUPPRIMEZ' | translate }}</button>
+        <button class="btn btn-warning" ng-click="annulation()" >{{ 'ANNULEZ' | translate }}</button>
+    </div>
+    
+</div>

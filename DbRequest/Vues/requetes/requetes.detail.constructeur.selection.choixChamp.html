@@ -1,0 +1,64 @@
+<div class="modal-content">
+	<div class="modal-header">
+		<h3 class="modal-title">{{ 'REQUETE_CONSTRUCTEUR_MENU_SELECTION_CHAMP_CHOIXCHAMP' | translate }}</h3>
+	</div>
+
+	<div class="modal-body">
+      
+    <div class="row">
+	<div class="col-sm-6">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<a><strong>{{ 'REQUETE_CONSTRUCTEUR_MENU_SELECTION_CHAMP_CHOIXCHAMP_TABLES' | translate }}</strong></a>
+			</div>
+			<div class="panel-body">
+				<div id="scrollArea" style="overflow: auto; height:260px;">
+					<table class="table table-bordered table-hover table-condensed">
+    					<tbody>
+      						<tr ng-repeat="table in tablesChoixChamp | orderBy : 'nomtable'"ng-click="selectionTable(table.nomtable)" ng-class="{selected: table.nomtable === nomTableSelectionnee}">
+      							<td>
+      								{{table.nomtable}}
+      							</td>
+  							</tr>
+    					</tbody>
+  					</table>
+				</div>
+			</div>
+		</div>
+	</div>	
+    <div class="col-sm-6">
+    	<div class="panel panel-default">
+    		<div class="panel-heading">
+				<a><strong>{{ 'REQUETE_CONSTRUCTEUR_MENU_SELECTION_CHAMP_CHOIXCHAMP_CHAMP' | translate }}</strong></a>
+			</div>
+			<div class="panel-body">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+			        	{{nomTableSelectionnee}}
+			        </div>
+			        <div class="panel-body">
+			        	<div id="scrollArea" style="overflow: auto; height:160px;">
+			        		<table class="table table-bordered table-hover table-condensed">
+			        			<tbody>
+      								<tr ng-repeat="champ in champsTableSelectionnee" ng-click="selectionChamp(champ.attname)">
+      									<td>
+      										{{champ.attname}} 
+      									</td>
+  									</tr>
+    							</tbody>
+    						</table>
+    					</div>	
+				    </div>
+			    </div>
+		 	</div>
+    	</div>
+	</div>
+ 	</div>
+ 	
+    <div class="modal-footer">
+    </div>
+
+
+
+	
+</div>

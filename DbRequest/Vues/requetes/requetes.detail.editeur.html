@@ -1,0 +1,37 @@
+<div class="panel panel-default">
+	<div class="panel-body">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<a><strong>{{ 'REQUETE_EDITEUR_SCRIPT' | translate }}</strong></a>
+			</div>
+			<div class="panel-body">
+				<div id="scrollArea" style="overflow: auto; height:250px;">
+					<div ng-repeat="ligneScript in script track by $index">
+						{{ ligneScript }}
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<a><strong>{{ 'REQUETE_EDITEUR_EXECUTION' | translate }}</strong></a>
+			</div>
+			<div class="panel-body">	
+				<tabset>
+    				<tab ui-sref="requetes.detail.editeur.donnees" active=true>
+      					<tab-heading>
+        					{{ 'REQUETE_EDITEUR_EXECUTION_DONNEES' | translate }}
+      					</tab-heading>
+    				</tab>
+    				<tab ui-sref="requetes.detail.editeur.messages">
+      					<tab-heading>
+       						{{ 'REQUETE_EDITEUR_EXECUTION_MESSAGES' | translate }}
+      					</tab-heading>
+    				</tab>
+    			</tabset>
+    			<br>
+    			<div ui-view class="span9 slide"></div>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,35 @@
+
+<div class="modal-content">
+	<div class="modal-header">
+		<h3 class="modal-title">{{ 'CHANGEMENT_MDP_UTILISATEUR' | translate }}</h3>
+	</div>
+	<form name="formulaireChangementMdp"  novalidate>
+		<div class="modal-body">
+		
+        	<div class="form-group" ng-class="{ 'has-error' : formulaireChangementMdp.motDePasse.$invalid && !formulaireChangementMdp.motDePasse.$pristine || formulaireChangementMdp.motDePasse.$pristine && submitted  }">
+  				<label for="motDePasse">{{ 'CHANGEMENT_MDP_UTILISATEUR_NOUVEAU' | translate }}</label>
+  				<input type="password" name="motDePasse" class="form-control"
+         			ng-model="changementMdpUtilisateur.motDePasse" required ng-minlength="6"
+         			placeholder="{{ 'ENREGISTREMENT_MDP_UTILISATEUR_PLACEHOLDER' | translate }}">
+         		<p ng-show="formulaireChangementMdp.motDePasse.$error.required && submitted || formulaireChangementMdp.motDePasse.$pristine && submitted " class="help-block">{{ 'ENREGISTREMENT_MDP_UTILISATEUR_ERREUR' | translate }}</p>
+ 				<p ng-show="formulaireChangementMdp.motDePasse.$error.minlength && submitted "  class="help-block">{{ 'ENREGISTREMENT_MDP_UTILISATEUR_ERREUR_MIN' | translate }}</p>	        	
+         	</div>
+         	
+         	<div class="form-group" ng-class="{ 'has-error' : formulaireChangementMdp.motDePasseConfirme.$invalid && !formulaireChangementMdp.motDePasseConfirme.$pristine || formulaireChangementMdp.motDePasseConfirme.$pristine && submitted  }">
+  				<label for="motDePasseConfirme">{{ 'ENREGISTREMENT_MDPCONFIRM_UTILISATEUR' | translate }}</label>
+  				<input type="password" name="motDePasseConfirme" class="form-control"
+         			ng-model="changementMdpUtilisateur.motDePasseConfirme" estegal="formulaireChangementMdp.motDePasse" 
+         			placeholder="{{ 'ENREGISTREMENT_MDPCONFIRM_UTILISATEUR_PLACEHOLDER' | translate }}">
+         		<p ng-show="formulaireChangementMdp.motDePasseConfirme.$invalid && submitted || formulaireChangementMdp.motDePasseConfirme.$pristine && submitted " class="help-block">{{ 'ENREGISTREMENT_MDPCONFIRM_UTILISATEUR_ERREUR' | translate }}</p>
+         	</div>
+     
+ 	</div>
+    	<div class="modal-footer">
+            <button class="btn btn-primary" ng-click="changementMdp(formulaireChangementMdp.$valid , changementMdpUtilisateur)" >{{ 'OK' | translate }}</button>
+            <button class="btn btn-warning" ng-click="annulation()">{{ 'ANNULEZ' | translate }}</button>
+    	</div>
+ 	</form>
+
+
+	
+</div>

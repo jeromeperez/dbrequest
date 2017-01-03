@@ -1,0 +1,36 @@
+{
+    "env": "prod",
+    "port": 3000,
+	"secret": "Parepou", 
+
+    "images_mini_directory": "images/mini/",
+    "images_normal_directory": "images/normal/",
+    "images_mini_size": 96,
+    "images_normal_size": 800,
+
+    "couch_host": "localhost",
+    "couch_port": 5984,
+    "couch_db": "floristic_soft",
+    "couch_connexion_string": "http://localhost:5984",
+    
+	"pg_host": "vmecosfix-preprod.ird.fr", 
+    "pg_port": 5432,
+	"pg_database_init": "postgres",
+    "pg_user_init": "devecosfix",
+    "pg_password_init": "5L6EOmkI",
+    "pg_database": "_dbrequest",
+    "pg_user": "devecosfix",
+    "pg_password": "5L6EOmkI",
+	"pg_BD": "postgres://postgres:yokomo68@localhost/postgres" ,
+	
+	"mailer_service": "Gmail" ,
+	"mailer_user": "amap.dbrequest@gmail.com" ,
+	"mailer_password": "cayenne34" ,
+	"mailer_path": "lib/views/emails" ,
+	"mailer_subject": "Invitation à découvrir DbRequest" ,
+	"mailer_invitation_html": "invitation.html" , 
+	"mailer_context_name": "ValidationDbRequest" ,
+	"mailer_subject_validation": "Demande de validation DbRequest" ,
+	"mailer_validation_html": "validation.html" , 
+	"mailer_context_name_validation": "ValidationDbRequest" 
+}

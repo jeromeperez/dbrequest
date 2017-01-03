@@ -1,0 +1,36 @@
+<div ng-mouseover="LancerRechercheImportationsEnCours()">
+<div class="row">
+  <div class="span3">
+    <div class="pa-sidebar well well-small">
+      <ul class="nav nav-list">
+        <li ng-class="{ active: $state.includes('dataManager.liste') }">
+        	<p class="lead" ui-sref="dataManager.liste">{{ 'TOUTES_LES_BASES_DE_DATAMANAGER' | translate }}</p>
+        </li>
+        <li>
+        	<a data-ng-show="flagImportationEnCours || flagDemandeImportationEnCours"><progressbar class="progress-striped active" value="dynamic" type="danger">{{ 'IMPORTATION_EN_COURS' | translate }}</progressbar></a>
+        </li>
+      </ul> 
+<!--       progress-bar-danger progress-striped active -->
+      <div ui-view="importIdentification" class="slide"></div>
+    </div>
+  </div>
+  <div ui-view class="span9 slide"></div>
+</div>
+
+<div class="panel panel-default" class="slide">
+	<div class="panel-body">
+		<div class="row">
+    		<!-- Colonne détail structure -->
+    		<div class="col-sm-4">
+        		<div ui-view="detailStructures"></div>
+    		</div>
+    
+    		<!-- Colonne détail des importations -->
+    		<div class="col-sm-8">
+				<div ui-view="detailImportations"></div>
+			</div>
+		</div>   
+	</div>
+	
+</div>     
+</div>

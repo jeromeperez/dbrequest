@@ -1,0 +1,47 @@
+<div class="container">
+<div class="panel panel-default">
+ <div class="panel-body">
+  <div class="container">
+  	<form name="formulaireUtilisateur"  novalidate>
+		<div  class="form-inline form-group" ng-class="{ 'has-error' : formulaireUtilisateur.mailUtilisateur.$invalid}">
+			<label>{{ 'UTILISATEURS_DETAIL_MAIL' | translate }} :
+			<input type="email" name="mailUtilisateur" class="form-control"
+         		ng-model="modif.mailUtilisateurChoisi"  required >
+         	<p ng-show="formulaireUtilisateur.mailUtilisateur.$error.required" class="help-block">{{ 'ENREGISTREMENT_MAIL_UTILISATEUR_ERREUR' | translate }}</p>	
+         	<p ng-show="formulaireUtilisateur.mailUtilisateur.$error.email" class="help-block">{{ 'ENREGISTREMENT_MAIL_UTILISATEUR_ERREUR' | translate }}</p>
+         	</label>
+    	</div>	
+    </form>	
+  	<div class="container">
+		<div class="row">
+    		<div class="col-sm-3">
+    		    <p>{{ 'UTILISATEURS_DETAIL_NOM' | translate }} : {{utilisateurSelectionne.nomutilisateur}}</p>
+    			<p>{{ 'UTILISATEURS_DETAIL_DATE_INSCRIPTION' | translate }} : {{utilisateurSelectionne.dateinscription | date:'dd/MM/yyyy'}}</p>
+    			<p>{{ 'UTILISATEURS_DETAIL_DATE_VALIDATION_INSCRIPTION' | translate }} : {{utilisateurSelectionne.datevalidationinscription | date:'dd/MM/yyyy'}}</p>
+    			<p>{{ 'UTILISATEURS_DETAIL_DATE_DERNIERE_CONNEXION' | translate }} : {{utilisateurSelectionne.datederniereconnexion | date:'dd/MM/yyyy'}}</p>
+    			<p><strong>{{ 'UTILISATEURS_DETAIL_UTILISATEUR_ACTIF' | translate }} : </strong><input type="checkbox" ng-model="modif.autorisationChoisie" /></p>
+    		</div>
+    		<div class="col-sm-3">
+    			<p><strong>{{ 'UTILISATEURS_DETAIL_SCOPE' | translate }} :</strong></p>
+		      	<ul>
+  			    	<li ng-repeat="permission in listePermissionsUtilisateur">
+    		      		<input type="checkbox" checklist-model="modif.permissionsChoisies" checklist-value="permission"/> {{permission}}
+  			    	</li>
+		      	</ul> 
+			</div>
+			<div class="col-sm-3">
+				<p><strong>{{ 'UTILISATEURS_DETAIL_LANGUE_UTILISATEUR' | translate }} :</strong></p>
+		      	<ul>
+  			    	<li ng-repeat="langue in listeLanguesUtilisateur">
+    		      		<input type="radio" ng-model="$parent.modif.langueChoisie" name="name" value={{langue}} required="required"/> {{langue | uppercase | translate }}
+  			    	</li>
+		      	</ul> 
+			</div>
+  		</div>
+  		<button class="btn btn-primary" ng-show="utilisateurSelectionne.datevalidationinscription == null && formulaireUtilisateur.mailUtilisateur.$valid" ng-click="validezCompte(modif)">{{ 'UTILISATEURS_DETAIL_VALIDEZ_COMPTE' | translate }}</button>
+  		<button class="btn btn-primary" ng-show="utilisateurSelectionne.datevalidationinscription != null && ((modif.autorisationChoisie != autorisationUtilisateur) || (modif.langueChoisie != langueUtilisateur) || (modif.permissionsChoisies.sort().toString() != permissionsUtilisateur.sort().toString()) || ((modif.mailUtilisateurChoisi != modif.mailUtilisateur) && formulaireUtilisateur.mailUtilisateur.$valid)) " ng-click="modifiezCompte(modif)">{{ 'UTILISATEURS_DETAIL_ENREGISTREZ_MODIFICATION_COMPTE' | translate }}</button>
+  	</div>
+  </div>
+  </div>
+ </div>       
+</div>

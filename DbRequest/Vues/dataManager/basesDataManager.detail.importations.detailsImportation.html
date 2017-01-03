@@ -1,0 +1,50 @@
+<div>
+  <a>{{ 'DATAMANAGER_DETAIL_DETAIL_D_UNE_IMPORTATION' | translate }} : </a>
+</div>
+<div>
+  <ul>
+  	<li>
+  	  <a>{{ 'DATAMANAGER_DETAIL_DETAIL_D_UNE_IMPORTATION_NOM_BASE_DBREQUEST' | translate }} :</a><br>
+      <a>{{importationSelectionne.nomnouvellebase}}</a>
+    </li>
+    <li>
+  	  <a>{{ 'DATAMANAGER_DETAIL_DETAIL_D_UNE_IMPORTATION_DATE_IMPORT' | translate }} : </a><br>
+      <a>{{importationSelectionne.dateimport | date:'dd/MM/yyyy HH:mm:ss'}}</a>
+    </li>
+ 	<li>
+  	  <a>{{ 'DATAMANAGER_DETAIL_DETAIL_D_UNE_IMPORTATION_DETAILS STRUCTURES' | translate }} :</a><br>
+      <ul>
+  		<li ng-repeat="structure in struturesImportationSelectionne">
+    		<a>{{structure}}</a>
+  		</li>
+	  </ul> 
+      
+      
+      
+    </li>
+    <li>
+  	  <a>{{ 'DATAMANAGER_DETAIL_DETAIL_D_UNE_IMPORTATION_SVG_BASE_DATAMANAGER' | translate }} :</a><br>
+      <a>{{importationSelectionne.nombasejson}}</a>
+    </li>
+ 	<li>
+  	  <a>{{ 'DATAMANAGER_DETAIL_DETAIL_D_UNE_IMPORTATION_SVG_SQL' | translate }} :</a><br>
+      <a>{{importationSelectionne.nomsqlbase}}</a>
+    </li>
+ 	<li>
+  	  <a>{{ 'DATAMANAGER_DETAIL_DETAIL_D_UNE_IMPORTATION_SVG_BASE_DBREQUEST' | translate }} :</a><br>
+      <a>{{importationSelectionne.nombasesvg}}</a>
+    </li>
+ 	<li>
+  	  <a>{{ 'DATAMANAGER_DETAIL_DETAIL_D_UNE_IMPORTATION_DATE_FIN_IMPORT' | translate }} :</a><br>
+      <a>{{importationSelectionne.datefinimportation | date:'dd/MM/yyyy HH:mm:ss'}}</a>
+    </li>
+  </ul>
+  <button data-ng-hide="flagImportationEnCours || flagDemandeImportationEnCours" class="btn btn-primary" ui-sref="dataManager.detail.supprimerDetailImportBase({detailId:importationSelectionne.extentiondate})">{{ 'DATAMANAGER_DETAIL_DETAIL_D_UNE_IMPORTATION_SUPPRIMEZ' | translate }}</button>
+</div>
+
+
+<!-- <ul>
+  <li ng-repeat="importation in importationsDeLaBaseSelectionnee">
+    <input type="checkbox" ng-checked="checkItem(item.id)"> {{item.Title}}
+  </li>
+</ul>  -->

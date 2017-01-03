@@ -1,0 +1,1283 @@
+2015-08-21 16:27:32: [PM2][WORKER] Started with refreshing interval: 30000
+2015-08-21 16:27:32: [[[[ PM2/God daemon launched ]]]]
+2015-08-21 16:27:32: BUS system [READY] on port /devecosfix/.pm2/pub.sock
+2015-08-21 16:27:32: RPC interface [READY] on port /devecosfix/.pm2/rpc.sock
+2015-08-21 16:27:59: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-21 16:27:59: App name:server id:0 online
+2015-08-21 16:56:27: Stopping app:server id:0
+2015-08-21 16:56:27: App name:server id:0 exited with code 130
+2015-08-21 16:56:27: Process with pid 12925 killed
+2015-08-21 16:56:59: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-21 16:56:59: App name:server id:0 online
+2015-08-24 10:15:22: Stopping app:server id:0
+2015-08-24 10:15:22: App name:server id:0 exited with code 130
+2015-08-24 10:15:22: Process with pid 13381 killed
+2015-08-24 10:30:32: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-24 10:30:32: App name:server id:0 online
+2015-08-26 09:54:18: Stopping app:server id:0
+2015-08-26 09:54:18: App name:server id:0 exited with code 130
+2015-08-26 09:54:18: Process with pid 31287 killed
+2015-08-26 09:55:40: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-26 09:55:40: App name:server id:0 online
+2015-08-26 09:57:47: Stopping app:server id:0
+2015-08-26 09:57:47: App name:server id:0 exited with code 130
+2015-08-26 09:57:47: Process with pid 13320 killed
+2015-08-26 09:57:56: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-26 09:57:56: App name:server id:0 online
+2015-08-26 15:19:50: Stopping app:server id:0
+2015-08-26 15:19:50: App name:server id:0 exited with code 130
+2015-08-26 15:19:50: Process with pid 13432 killed
+2015-08-26 15:20:20: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-26 15:20:20: App name:server id:0 online
+2015-08-26 15:23:05: Stopping app:server id:0
+2015-08-26 15:23:05: App name:server id:0 exited with code 130
+2015-08-26 15:23:05: Process with pid 25196 killed
+2015-08-26 15:25:46: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-26 15:25:46: App name:server id:0 online
+2015-08-26 16:07:05: Stopping app:server id:0
+2015-08-26 16:07:05: App name:server id:0 exited with code 130
+2015-08-26 16:07:05: Process with pid 25270 killed
+2015-08-26 16:07:12: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-26 16:07:12: App name:server id:0 online
+2015-08-26 17:49:23: Stopping app:server id:0
+2015-08-26 17:49:23: App name:server id:0 exited with code 130
+2015-08-26 17:49:23: Process with pid 25949 killed
+2015-08-26 17:49:35: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-26 17:49:35: App name:server id:0 online
+2015-08-27 10:12:36: Stopping app:server id:0
+2015-08-27 10:12:36: App name:server id:0 exited with code 130
+2015-08-27 10:12:36: Process with pid 27827 killed
+2015-08-27 10:12:46: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:12:46: App name:server id:0 online
+2015-08-27 10:12:48: App name:server id:0 exited with code 255
+2015-08-27 10:12:48: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:12:48: App name:server id:0 online
+2015-08-27 10:12:49: App name:server id:0 exited with code 255
+2015-08-27 10:12:49: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:12:49: App name:server id:0 online
+2015-08-27 10:12:50: App name:server id:0 exited with code 255
+2015-08-27 10:12:50: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:12:50: App name:server id:0 online
+2015-08-27 10:12:51: App name:server id:0 exited with code 255
+2015-08-27 10:12:51: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:12:51: App name:server id:0 online
+2015-08-27 10:12:52: App name:server id:0 exited with code 255
+2015-08-27 10:12:52: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:12:52: App name:server id:0 online
+2015-08-27 10:12:53: App name:server id:0 exited with code 255
+2015-08-27 10:12:53: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:12:53: App name:server id:0 online
+2015-08-27 10:12:54: App name:server id:0 exited with code 255
+2015-08-27 10:12:54: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:12:54: App name:server id:0 online
+2015-08-27 10:12:55: App name:server id:0 exited with code 255
+2015-08-27 10:12:55: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:12:55: App name:server id:0 online
+2015-08-27 10:12:56: App name:server id:0 exited with code 255
+2015-08-27 10:12:56: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:12:56: App name:server id:0 online
+2015-08-27 10:12:57: App name:server id:0 exited with code 255
+2015-08-27 10:12:57: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:12:57: App name:server id:0 online
+2015-08-27 10:12:58: App name:server id:0 exited with code 255
+2015-08-27 10:12:58: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:12:58: App name:server id:0 online
+2015-08-27 10:12:59: App name:server id:0 exited with code 255
+2015-08-27 10:12:59: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:12:59: App name:server id:0 online
+2015-08-27 10:13:00: App name:server id:0 exited with code 255
+2015-08-27 10:13:00: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:00: App name:server id:0 online
+2015-08-27 10:13:01: App name:server id:0 exited with code 255
+2015-08-27 10:13:01: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:01: App name:server id:0 online
+2015-08-27 10:13:02: App name:server id:0 exited with code 255
+2015-08-27 10:13:02: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:02: App name:server id:0 online
+2015-08-27 10:13:03: App name:server id:0 exited with code 255
+2015-08-27 10:13:03: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:03: App name:server id:0 online
+2015-08-27 10:13:04: App name:server id:0 exited with code 255
+2015-08-27 10:13:04: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:04: App name:server id:0 online
+2015-08-27 10:13:05: App name:server id:0 exited with code 255
+2015-08-27 10:13:05: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:05: App name:server id:0 online
+2015-08-27 10:13:06: App name:server id:0 exited with code 255
+2015-08-27 10:13:06: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:06: App name:server id:0 online
+2015-08-27 10:13:07: App name:server id:0 exited with code 255
+2015-08-27 10:13:07: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:07: App name:server id:0 online
+2015-08-27 10:13:08: App name:server id:0 exited with code 255
+2015-08-27 10:13:08: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:08: App name:server id:0 online
+2015-08-27 10:13:09: App name:server id:0 exited with code 255
+2015-08-27 10:13:09: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:09: App name:server id:0 online
+2015-08-27 10:13:10: App name:server id:0 exited with code 255
+2015-08-27 10:13:10: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:10: App name:server id:0 online
+2015-08-27 10:13:11: App name:server id:0 exited with code 255
+2015-08-27 10:13:11: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:11: App name:server id:0 online
+2015-08-27 10:13:12: App name:server id:0 exited with code 255
+2015-08-27 10:13:12: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:12: App name:server id:0 online
+2015-08-27 10:13:13: App name:server id:0 exited with code 255
+2015-08-27 10:13:13: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:13: App name:server id:0 online
+2015-08-27 10:13:14: App name:server id:0 exited with code 255
+2015-08-27 10:13:14: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:14: App name:server id:0 online
+2015-08-27 10:13:15: App name:server id:0 exited with code 255
+2015-08-27 10:13:15: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:15: App name:server id:0 online
+2015-08-27 10:13:16: App name:server id:0 exited with code 255
+2015-08-27 10:13:16: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:16: App name:server id:0 online
+2015-08-27 10:13:17: App name:server id:0 exited with code 255
+2015-08-27 10:13:17: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:17: App name:server id:0 online
+2015-08-27 10:13:18: App name:server id:0 exited with code 255
+2015-08-27 10:13:18: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:18: App name:server id:0 online
+2015-08-27 10:13:19: App name:server id:0 exited with code 255
+2015-08-27 10:13:19: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:19: App name:server id:0 online
+2015-08-27 10:13:20: App name:server id:0 exited with code 255
+2015-08-27 10:13:20: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:20: App name:server id:0 online
+2015-08-27 10:13:21: App name:server id:0 exited with code 255
+2015-08-27 10:13:21: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:21: App name:server id:0 online
+2015-08-27 10:13:22: App name:server id:0 exited with code 255
+2015-08-27 10:13:22: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:22: App name:server id:0 online
+2015-08-27 10:13:23: App name:server id:0 exited with code 255
+2015-08-27 10:13:23: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:23: App name:server id:0 online
+2015-08-27 10:13:24: App name:server id:0 exited with code 255
+2015-08-27 10:13:24: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:24: App name:server id:0 online
+2015-08-27 10:13:25: App name:server id:0 exited with code 255
+2015-08-27 10:13:25: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:25: App name:server id:0 online
+2015-08-27 10:13:26: App name:server id:0 exited with code 255
+2015-08-27 10:13:26: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:26: App name:server id:0 online
+2015-08-27 10:13:27: App name:server id:0 exited with code 255
+2015-08-27 10:13:27: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:27: App name:server id:0 online
+2015-08-27 10:13:28: App name:server id:0 exited with code 255
+2015-08-27 10:13:28: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:28: App name:server id:0 online
+2015-08-27 10:13:29: App name:server id:0 exited with code 255
+2015-08-27 10:13:29: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:29: App name:server id:0 online
+2015-08-27 10:13:30: App name:server id:0 exited with code 255
+2015-08-27 10:13:30: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:30: App name:server id:0 online
+2015-08-27 10:13:31: App name:server id:0 exited with code 255
+2015-08-27 10:13:31: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:31: App name:server id:0 online
+2015-08-27 10:13:32: App name:server id:0 exited with code 255
+2015-08-27 10:13:32: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:32: App name:server id:0 online
+2015-08-27 10:13:33: App name:server id:0 exited with code 255
+2015-08-27 10:13:33: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:33: App name:server id:0 online
+2015-08-27 10:13:34: App name:server id:0 exited with code 255
+2015-08-27 10:13:34: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:34: App name:server id:0 online
+2015-08-27 10:13:35: App name:server id:0 exited with code 255
+2015-08-27 10:13:35: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:35: App name:server id:0 online
+2015-08-27 10:13:36: App name:server id:0 exited with code 255
+2015-08-27 10:13:36: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:36: App name:server id:0 online
+2015-08-27 10:13:37: App name:server id:0 exited with code 255
+2015-08-27 10:13:37: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:37: App name:server id:0 online
+2015-08-27 10:13:38: App name:server id:0 exited with code 255
+2015-08-27 10:13:38: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:38: App name:server id:0 online
+2015-08-27 10:13:39: App name:server id:0 exited with code 255
+2015-08-27 10:13:39: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:39: App name:server id:0 online
+2015-08-27 10:13:40: App name:server id:0 exited with code 255
+2015-08-27 10:13:40: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:40: App name:server id:0 online
+2015-08-27 10:13:41: App name:server id:0 exited with code 255
+2015-08-27 10:13:41: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:41: App name:server id:0 online
+2015-08-27 10:13:42: App name:server id:0 exited with code 255
+2015-08-27 10:13:42: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:42: App name:server id:0 online
+2015-08-27 10:13:43: App name:server id:0 exited with code 255
+2015-08-27 10:13:43: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:43: App name:server id:0 online
+2015-08-27 10:13:44: App name:server id:0 exited with code 255
+2015-08-27 10:13:44: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:44: App name:server id:0 online
+2015-08-27 10:13:45: App name:server id:0 exited with code 255
+2015-08-27 10:13:45: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:45: App name:server id:0 online
+2015-08-27 10:13:46: Stopping app:server id:0
+2015-08-27 10:13:46: App name:server id:0 exited with code 130
+2015-08-27 10:13:46: Process with pid 16227 killed
+2015-08-27 10:13:46: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:46: App name:server id:0 online
+2015-08-27 10:13:47: App name:server id:0 exited with code 255
+2015-08-27 10:13:47: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:47: App name:server id:0 online
+2015-08-27 10:13:48: App name:server id:0 exited with code 255
+2015-08-27 10:13:48: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:48: App name:server id:0 online
+2015-08-27 10:13:49: App name:server id:0 exited with code 255
+2015-08-27 10:13:49: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:49: App name:server id:0 online
+2015-08-27 10:13:50: App name:server id:0 exited with code 255
+2015-08-27 10:13:50: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:50: App name:server id:0 online
+2015-08-27 10:13:51: App name:server id:0 exited with code 255
+2015-08-27 10:13:51: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:51: App name:server id:0 online
+2015-08-27 10:13:52: App name:server id:0 exited with code 255
+2015-08-27 10:13:52: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:52: App name:server id:0 online
+2015-08-27 10:13:53: App name:server id:0 exited with code 255
+2015-08-27 10:13:53: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:53: App name:server id:0 online
+2015-08-27 10:13:54: App name:server id:0 exited with code 255
+2015-08-27 10:13:54: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:54: App name:server id:0 online
+2015-08-27 10:13:55: App name:server id:0 exited with code 255
+2015-08-27 10:13:55: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:55: App name:server id:0 online
+2015-08-27 10:13:56: App name:server id:0 exited with code 255
+2015-08-27 10:13:56: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:56: App name:server id:0 online
+2015-08-27 10:13:57: App name:server id:0 exited with code 255
+2015-08-27 10:13:57: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:57: App name:server id:0 online
+2015-08-27 10:13:58: App name:server id:0 exited with code 255
+2015-08-27 10:13:58: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:58: App name:server id:0 online
+2015-08-27 10:13:59: App name:server id:0 exited with code 255
+2015-08-27 10:13:59: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:13:59: App name:server id:0 online
+2015-08-27 10:14:00: App name:server id:0 exited with code 255
+2015-08-27 10:14:00: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:14:00: App name:server id:0 online
+2015-08-27 10:14:01: App name:server id:0 exited with code 255
+2015-08-27 10:14:01: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:14:01: App name:server id:0 online
+2015-08-27 10:14:02: App name:server id:0 exited with code 255
+2015-08-27 10:14:02: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:14:02: App name:server id:0 online
+2015-08-27 10:14:03: App name:server id:0 exited with code 255
+2015-08-27 10:14:03: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:14:03: App name:server id:0 online
+2015-08-27 10:14:04: App name:server id:0 exited with code 255
+2015-08-27 10:14:04: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:14:04: App name:server id:0 online
+2015-08-27 10:14:05: App name:server id:0 exited with code 255
+2015-08-27 10:14:05: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:14:05: App name:server id:0 online
+2015-08-27 10:14:06: App name:server id:0 exited with code 255
+2015-08-27 10:14:06: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:14:06: App name:server id:0 online
+2015-08-27 10:14:07: App name:server id:0 exited with code 255
+2015-08-27 10:14:07: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:14:07: App name:server id:0 online
+2015-08-27 10:14:08: App name:server id:0 exited with code 255
+2015-08-27 10:14:08: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:14:08: App name:server id:0 online
+2015-08-27 10:14:09: App name:server id:0 exited with code 255
+2015-08-27 10:14:09: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:14:09: App name:server id:0 online
+2015-08-27 10:14:10: App name:server id:0 exited with code 255
+2015-08-27 10:14:10: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:14:10: App name:server id:0 online
+2015-08-27 10:14:11: App name:server id:0 exited with code 255
+2015-08-27 10:14:11: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:14:11: App name:server id:0 online
+2015-08-27 10:14:12: App name:server id:0 exited with code 255
+2015-08-27 10:14:12: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:14:12: App name:server id:0 online
+2015-08-27 10:14:13: App name:server id:0 exited with code 255
+2015-08-27 10:14:13: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:14:13: App name:server id:0 online
+2015-08-27 10:14:14: App name:server id:0 exited with code 255
+2015-08-27 10:14:14: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:14:14: App name:server id:0 online
+2015-08-27 10:14:15: App name:server id:0 exited with code 255
+2015-08-27 10:14:15: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:14:15: App name:server id:0 online
+2015-08-27 10:14:16: App name:server id:0 exited with code 255
+2015-08-27 10:14:16: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:14:16: App name:server id:0 online
+2015-08-27 10:14:17: App name:server id:0 exited with code 255
+2015-08-27 10:14:17: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:14:17: App name:server id:0 online
+2015-08-27 10:14:18: App name:server id:0 exited with code 255
+2015-08-27 10:14:18: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:14:18: App name:server id:0 online
+2015-08-27 10:14:19: App name:server id:0 exited with code 255
+2015-08-27 10:14:19: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:14:19: App name:server id:0 online
+2015-08-27 10:14:20: App name:server id:0 exited with code 255
+2015-08-27 10:14:20: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:14:20: App name:server id:0 online
+2015-08-27 10:14:21: App name:server id:0 exited with code 255
+2015-08-27 10:14:21: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:14:21: App name:server id:0 online
+2015-08-27 10:14:22: App name:server id:0 exited with code 255
+2015-08-27 10:14:22: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:14:22: App name:server id:0 online
+2015-08-27 10:14:23: App name:server id:0 exited with code 255
+2015-08-27 10:14:23: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:14:23: App name:server id:0 online
+2015-08-27 10:14:24: App name:server id:0 exited with code 255
+2015-08-27 10:14:24: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:14:24: App name:server id:0 online
+2015-08-27 10:14:25: App name:server id:0 exited with code 255
+2015-08-27 10:14:25: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:14:25: App name:server id:0 online
+2015-08-27 10:14:26: App name:server id:0 exited with code 255
+2015-08-27 10:14:26: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:14:26: App name:server id:0 online
+2015-08-27 10:14:27: App name:server id:0 exited with code 255
+2015-08-27 10:14:27: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:14:27: App name:server id:0 online
+2015-08-27 10:14:28: App name:server id:0 exited with code 255
+2015-08-27 10:14:28: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:14:28: App name:server id:0 online
+2015-08-27 10:14:29: App name:server id:0 exited with code 255
+2015-08-27 10:14:29: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:14:29: App name:server id:0 online
+2015-08-27 10:14:30: App name:server id:0 exited with code 255
+2015-08-27 10:14:30: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:14:30: App name:server id:0 online
+2015-08-27 10:14:31: App name:server id:0 exited with code 255
+2015-08-27 10:14:31: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:14:31: App name:server id:0 online
+2015-08-27 10:14:32: App name:server id:0 exited with code 255
+2015-08-27 10:14:32: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:14:32: App name:server id:0 online
+2015-08-27 10:14:33: App name:server id:0 exited with code 255
+2015-08-27 10:14:33: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:14:33: App name:server id:0 online
+2015-08-27 10:14:34: App name:server id:0 exited with code 255
+2015-08-27 10:14:34: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:14:34: App name:server id:0 online
+2015-08-27 10:14:35: Stopping app:server id:0
+2015-08-27 10:14:35: App name:server id:0 exited with code 130
+2015-08-27 10:14:35: Process with pid 16536 killed
+2015-08-27 10:17:54: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:17:54: App name:server id:0 online
+2015-08-27 10:50:38: Stopping app:server id:0
+2015-08-27 10:50:38: App name:server id:0 exited with code 130
+2015-08-27 10:50:38: Process with pid 16590 killed
+2015-08-27 10:50:41: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:50:41: App name:server id:0 online
+2015-08-27 10:54:49: Stopping app:server id:0
+2015-08-27 10:54:49: App name:server id:0 exited with code 130
+2015-08-27 10:54:49: Process with pid 16903 killed
+2015-08-27 10:54:52: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 10:54:52: App name:server id:0 online
+2015-08-27 11:03:19: Stopping app:server id:0
+2015-08-27 11:03:19: App name:server id:0 exited with code 130
+2015-08-27 11:03:19: Process with pid 16984 killed
+2015-08-27 11:03:19: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 11:03:19: App name:server id:0 online
+2015-08-27 11:03:27: Stopping app:server id:0
+2015-08-27 11:03:27: App name:server id:0 exited with code 130
+2015-08-27 11:03:28: Process with pid 17181 killed
+2015-08-27 11:03:29: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 11:03:29: App name:server id:0 online
+2015-08-27 11:08:59: Stopping app:server id:0
+2015-08-27 11:08:59: App name:server id:0 exited with code 130
+2015-08-27 11:08:59: Process with pid 17197 killed
+2015-08-27 11:09:01: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 11:09:01: App name:server id:0 online
+2015-08-27 11:11:37: Stopping app:server id:0
+2015-08-27 11:11:37: App name:server id:0 exited with code 130
+2015-08-27 11:11:37: Process with pid 17312 killed
+2015-08-27 11:11:39: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-27 11:11:39: App name:server id:0 online
+2015-08-30 01:03:23: Stopping app:server id:0
+2015-08-30 01:03:23: App name:server id:0 exited with code 130
+2015-08-30 01:03:23: Process with pid 17383 killed
+2015-08-30 01:03:33: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 01:03:33: App name:server id:0 online
+2015-08-30 01:10:27: Stopping app:server id:0
+2015-08-30 01:10:27: App name:server id:0 exited with code 130
+2015-08-30 01:10:27: Process with pid 11402 killed
+2015-08-30 01:10:32: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 01:10:32: App name:server id:0 online
+2015-08-30 01:58:20: Stopping app:server id:0
+2015-08-30 01:58:20: App name:server id:0 exited with code 130
+2015-08-30 01:58:20: Process with pid 11486 killed
+2015-08-30 01:58:26: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 01:58:26: App name:server id:0 online
+2015-08-30 02:40:59: Stopping app:server id:0
+2015-08-30 02:40:59: App name:server id:0 exited with code 130
+2015-08-30 02:40:59: Process with pid 12236 killed
+2015-08-30 02:41:03: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 02:41:03: App name:server id:0 online
+2015-08-30 03:24:19: Stopping app:server id:0
+2015-08-30 03:24:19: App name:server id:0 exited with code 130
+2015-08-30 03:24:19: Process with pid 12995 killed
+2015-08-30 03:24:19: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 03:24:19: App name:server id:0 online
+2015-08-30 03:24:23: Stopping app:server id:0
+2015-08-30 03:24:23: App name:server id:0 exited with code 130
+2015-08-30 03:24:23: Process with pid 13789 killed
+2015-08-30 03:24:26: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 03:24:26: App name:server id:0 online
+2015-08-30 04:07:15: Stopping app:server id:0
+2015-08-30 04:07:15: App name:server id:0 exited with code 130
+2015-08-30 04:07:15: Process with pid 13800 killed
+2015-08-30 04:07:19: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 04:07:19: App name:server id:0 online
+2015-08-30 12:07:11: Stopping app:server id:0
+2015-08-30 12:07:11: App name:server id:0 exited with code 130
+2015-08-30 12:07:11: Process with pid 14579 killed
+2015-08-30 12:07:19: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 12:07:19: App name:server id:0 online
+2015-08-30 13:49:24: Stopping app:server id:0
+2015-08-30 13:49:24: Process with pid 21578 still not killed, retrying...
+2015-08-30 13:49:24: Process with pid 21578 still not killed, retrying...
+2015-08-30 13:49:25: Process with pid 21578 still not killed, retrying...
+2015-08-30 13:49:25: App name:server id:0 exited with code 130
+2015-08-30 13:49:25: Process with pid 21578 killed
+2015-08-30 13:51:12: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 13:51:12: App name:server id:0 online
+2015-08-30 15:47:44: Stopping app:server id:0
+2015-08-30 15:47:44: Process with pid 23263 still not killed, retrying...
+2015-08-30 15:47:44: App name:server id:0 exited with code 130
+2015-08-30 15:47:44: Process with pid 23263 killed
+2015-08-30 15:47:52: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 15:47:52: App name:server id:0 online
+2015-08-30 16:02:40: Stopping app:server id:0
+2015-08-30 16:02:40: App name:server id:0 exited with code 130
+2015-08-30 16:02:40: Process with pid 26178 killed
+2015-08-30 16:02:47: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 16:02:47: App name:server id:0 online
+2015-08-30 16:04:38: Stopping app:server id:0
+2015-08-30 16:04:38: App name:server id:0 exited with code 130
+2015-08-30 16:04:38: Process with pid 26602 killed
+2015-08-30 16:04:38: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 16:04:38: App name:server id:0 online
+2015-08-30 16:04:46: Stopping app:server id:0
+2015-08-30 16:04:46: App name:server id:0 exited with code 130
+2015-08-30 16:04:46: Process with pid 26676 killed
+2015-08-30 16:07:07: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 16:07:07: App name:server id:0 online
+2015-08-30 16:22:46: Stopping app:server id:0
+2015-08-30 16:22:46: App name:server id:0 exited with code 130
+2015-08-30 16:22:46: Process with pid 26762 killed
+2015-08-30 16:22:46: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 16:22:46: App name:server id:0 online
+2015-08-30 16:25:59: Stopping app:server id:0
+2015-08-30 16:25:59: App name:server id:0 exited with code 130
+2015-08-30 16:25:59: Process with pid 27190 killed
+2015-08-30 16:26:08: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 16:26:08: App name:server id:0 online
+2015-08-30 16:26:24: Stopping app:server id:0
+2015-08-30 16:26:24: App name:server id:0 exited with code 130
+2015-08-30 16:26:24: Process with pid 27332 killed
+2015-08-30 16:26:56: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 16:26:56: App name:server id:0 online
+2015-08-30 16:34:44: Stopping app:server id:0
+2015-08-30 16:34:44: App name:server id:0 exited with code 130
+2015-08-30 16:34:44: Process with pid 27379 killed
+2015-08-30 16:34:47: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 16:34:47: App name:server id:0 online
+2015-08-30 16:40:06: Stopping app:server id:0
+2015-08-30 16:40:06: App name:server id:0 exited with code 130
+2015-08-30 16:40:06: Process with pid 27692 killed
+2015-08-30 16:40:09: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 16:40:09: App name:server id:0 online
+2015-08-30 16:46:08: Stopping app:server id:0
+2015-08-30 16:46:08: App name:server id:0 exited with code 130
+2015-08-30 16:46:08: Process with pid 27903 killed
+2015-08-30 16:46:10: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 16:46:11: App name:server id:0 online
+2015-08-30 16:54:03: Stopping app:server id:0
+2015-08-30 16:54:03: App name:server id:0 exited with code 130
+2015-08-30 16:54:03: Process with pid 28056 killed
+2015-08-30 16:54:06: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 16:54:06: App name:server id:0 online
+2015-08-30 16:57:07: Stopping app:server id:0
+2015-08-30 16:57:07: App name:server id:0 exited with code 130
+2015-08-30 16:57:07: Process with pid 28255 killed
+2015-08-30 16:57:11: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 16:57:11: App name:server id:0 online
+2015-08-30 17:11:50: Stopping app:server id:0
+2015-08-30 17:11:50: App name:server id:0 exited with code 130
+2015-08-30 17:11:50: Process with pid 28350 killed
+2015-08-30 17:11:53: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 17:11:53: App name:server id:0 online
+2015-08-30 17:24:58: Stopping app:server id:0
+2015-08-30 17:24:58: App name:server id:0 exited with code 130
+2015-08-30 17:24:59: Process with pid 28724 killed
+2015-08-30 17:24:59: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 17:24:59: App name:server id:0 online
+2015-08-30 17:25:03: Stopping app:server id:0
+2015-08-30 17:25:03: App name:server id:0 exited with code 130
+2015-08-30 17:25:03: Process with pid 29096 killed
+2015-08-30 17:25:07: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 17:25:07: App name:server id:0 online
+2015-08-30 17:33:58: Stopping app:server id:0
+2015-08-30 17:33:58: App name:server id:0 exited with code 130
+2015-08-30 17:33:58: Process with pid 29107 killed
+2015-08-30 17:34:01: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 17:34:01: App name:server id:0 online
+2015-08-30 17:47:00: Stopping app:server id:0
+2015-08-30 17:47:00: App name:server id:0 exited with code 130
+2015-08-30 17:47:00: Process with pid 29346 killed
+2015-08-30 17:47:03: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 17:47:03: App name:server id:0 online
+2015-08-30 18:01:41: Stopping app:server id:0
+2015-08-30 18:01:41: App name:server id:0 exited with code 130
+2015-08-30 18:01:41: Process with pid 29512 killed
+2015-08-30 18:01:45: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:01:45: App name:server id:0 online
+2015-08-30 18:01:46: App name:server id:0 exited with code 255
+2015-08-30 18:01:46: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:01:46: App name:server id:0 online
+2015-08-30 18:01:47: App name:server id:0 exited with code 255
+2015-08-30 18:01:47: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:01:47: App name:server id:0 online
+2015-08-30 18:01:48: App name:server id:0 exited with code 255
+2015-08-30 18:01:48: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:01:48: App name:server id:0 online
+2015-08-30 18:01:49: App name:server id:0 exited with code 255
+2015-08-30 18:01:49: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:01:49: App name:server id:0 online
+2015-08-30 18:01:50: App name:server id:0 exited with code 255
+2015-08-30 18:01:50: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:01:50: App name:server id:0 online
+2015-08-30 18:01:51: App name:server id:0 exited with code 255
+2015-08-30 18:01:51: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:01:51: App name:server id:0 online
+2015-08-30 18:01:52: App name:server id:0 exited with code 255
+2015-08-30 18:01:52: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:01:52: App name:server id:0 online
+2015-08-30 18:01:53: App name:server id:0 exited with code 255
+2015-08-30 18:01:53: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:01:53: App name:server id:0 online
+2015-08-30 18:01:54: App name:server id:0 exited with code 255
+2015-08-30 18:01:54: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:01:54: App name:server id:0 online
+2015-08-30 18:01:55: App name:server id:0 exited with code 255
+2015-08-30 18:01:55: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:01:55: App name:server id:0 online
+2015-08-30 18:01:56: App name:server id:0 exited with code 255
+2015-08-30 18:01:56: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:01:56: App name:server id:0 online
+2015-08-30 18:01:58: App name:server id:0 exited with code 255
+2015-08-30 18:01:58: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:01:58: App name:server id:0 online
+2015-08-30 18:01:59: App name:server id:0 exited with code 255
+2015-08-30 18:01:59: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:01:59: App name:server id:0 online
+2015-08-30 18:02:00: App name:server id:0 exited with code 255
+2015-08-30 18:02:00: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:00: App name:server id:0 online
+2015-08-30 18:02:01: App name:server id:0 exited with code 255
+2015-08-30 18:02:01: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:01: App name:server id:0 online
+2015-08-30 18:02:02: App name:server id:0 exited with code 255
+2015-08-30 18:02:02: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:02: App name:server id:0 online
+2015-08-30 18:02:03: App name:server id:0 exited with code 255
+2015-08-30 18:02:03: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:03: App name:server id:0 online
+2015-08-30 18:02:04: App name:server id:0 exited with code 255
+2015-08-30 18:02:04: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:04: App name:server id:0 online
+2015-08-30 18:02:05: App name:server id:0 exited with code 255
+2015-08-30 18:02:05: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:05: App name:server id:0 online
+2015-08-30 18:02:06: App name:server id:0 exited with code 255
+2015-08-30 18:02:06: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:06: App name:server id:0 online
+2015-08-30 18:02:07: App name:server id:0 exited with code 255
+2015-08-30 18:02:07: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:07: App name:server id:0 online
+2015-08-30 18:02:08: App name:server id:0 exited with code 255
+2015-08-30 18:02:08: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:08: App name:server id:0 online
+2015-08-30 18:02:09: App name:server id:0 exited with code 255
+2015-08-30 18:02:09: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:09: App name:server id:0 online
+2015-08-30 18:02:10: App name:server id:0 exited with code 255
+2015-08-30 18:02:10: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:10: App name:server id:0 online
+2015-08-30 18:02:11: App name:server id:0 exited with code 255
+2015-08-30 18:02:11: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:11: App name:server id:0 online
+2015-08-30 18:02:12: App name:server id:0 exited with code 255
+2015-08-30 18:02:12: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:12: App name:server id:0 online
+2015-08-30 18:02:13: App name:server id:0 exited with code 255
+2015-08-30 18:02:13: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:13: App name:server id:0 online
+2015-08-30 18:02:14: App name:server id:0 exited with code 255
+2015-08-30 18:02:14: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:14: App name:server id:0 online
+2015-08-30 18:02:15: App name:server id:0 exited with code 255
+2015-08-30 18:02:15: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:15: App name:server id:0 online
+2015-08-30 18:02:16: App name:server id:0 exited with code 255
+2015-08-30 18:02:16: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:16: App name:server id:0 online
+2015-08-30 18:02:17: App name:server id:0 exited with code 255
+2015-08-30 18:02:17: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:17: App name:server id:0 online
+2015-08-30 18:02:18: App name:server id:0 exited with code 255
+2015-08-30 18:02:18: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:18: App name:server id:0 online
+2015-08-30 18:02:19: App name:server id:0 exited with code 255
+2015-08-30 18:02:19: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:19: App name:server id:0 online
+2015-08-30 18:02:20: App name:server id:0 exited with code 255
+2015-08-30 18:02:20: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:20: App name:server id:0 online
+2015-08-30 18:02:21: App name:server id:0 exited with code 255
+2015-08-30 18:02:21: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:21: App name:server id:0 online
+2015-08-30 18:02:22: App name:server id:0 exited with code 255
+2015-08-30 18:02:22: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:22: App name:server id:0 online
+2015-08-30 18:02:23: App name:server id:0 exited with code 255
+2015-08-30 18:02:23: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:23: App name:server id:0 online
+2015-08-30 18:02:24: App name:server id:0 exited with code 255
+2015-08-30 18:02:24: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:24: App name:server id:0 online
+2015-08-30 18:02:25: App name:server id:0 exited with code 255
+2015-08-30 18:02:25: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:25: App name:server id:0 online
+2015-08-30 18:02:26: App name:server id:0 exited with code 255
+2015-08-30 18:02:26: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:26: App name:server id:0 online
+2015-08-30 18:02:27: App name:server id:0 exited with code 255
+2015-08-30 18:02:27: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:27: App name:server id:0 online
+2015-08-30 18:02:28: App name:server id:0 exited with code 255
+2015-08-30 18:02:28: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:28: App name:server id:0 online
+2015-08-30 18:02:29: App name:server id:0 exited with code 255
+2015-08-30 18:02:29: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:29: App name:server id:0 online
+2015-08-30 18:02:30: App name:server id:0 exited with code 255
+2015-08-30 18:02:30: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:30: App name:server id:0 online
+2015-08-30 18:02:31: App name:server id:0 exited with code 255
+2015-08-30 18:02:31: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:31: App name:server id:0 online
+2015-08-30 18:02:32: App name:server id:0 exited with code 255
+2015-08-30 18:02:32: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:32: App name:server id:0 online
+2015-08-30 18:02:33: App name:server id:0 exited with code 255
+2015-08-30 18:02:33: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:33: App name:server id:0 online
+2015-08-30 18:02:34: App name:server id:0 exited with code 255
+2015-08-30 18:02:34: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:34: App name:server id:0 online
+2015-08-30 18:02:35: App name:server id:0 exited with code 255
+2015-08-30 18:02:35: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:35: App name:server id:0 online
+2015-08-30 18:02:36: App name:server id:0 exited with code 255
+2015-08-30 18:02:36: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:36: App name:server id:0 online
+2015-08-30 18:02:37: App name:server id:0 exited with code 255
+2015-08-30 18:02:37: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:37: App name:server id:0 online
+2015-08-30 18:02:38: App name:server id:0 exited with code 255
+2015-08-30 18:02:38: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:38: App name:server id:0 online
+2015-08-30 18:02:39: App name:server id:0 exited with code 255
+2015-08-30 18:02:39: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:39: App name:server id:0 online
+2015-08-30 18:02:40: App name:server id:0 exited with code 255
+2015-08-30 18:02:40: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:40: App name:server id:0 online
+2015-08-30 18:02:41: App name:server id:0 exited with code 255
+2015-08-30 18:02:41: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:41: App name:server id:0 online
+2015-08-30 18:02:42: App name:server id:0 exited with code 255
+2015-08-30 18:02:42: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:42: App name:server id:0 online
+2015-08-30 18:02:43: App name:server id:0 exited with code 255
+2015-08-30 18:02:43: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:43: App name:server id:0 online
+2015-08-30 18:02:44: App name:server id:0 exited with code 255
+2015-08-30 18:02:44: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:44: App name:server id:0 online
+2015-08-30 18:02:45: App name:server id:0 exited with code 255
+2015-08-30 18:02:45: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:45: App name:server id:0 online
+2015-08-30 18:02:46: App name:server id:0 exited with code 255
+2015-08-30 18:02:46: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:46: App name:server id:0 online
+2015-08-30 18:02:47: App name:server id:0 exited with code 255
+2015-08-30 18:02:47: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:47: App name:server id:0 online
+2015-08-30 18:02:48: App name:server id:0 exited with code 255
+2015-08-30 18:02:48: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:48: App name:server id:0 online
+2015-08-30 18:02:49: App name:server id:0 exited with code 255
+2015-08-30 18:02:49: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:49: App name:server id:0 online
+2015-08-30 18:02:50: App name:server id:0 exited with code 255
+2015-08-30 18:02:50: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:50: App name:server id:0 online
+2015-08-30 18:02:51: App name:server id:0 exited with code 255
+2015-08-30 18:02:51: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:51: App name:server id:0 online
+2015-08-30 18:02:52: App name:server id:0 exited with code 255
+2015-08-30 18:02:52: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:52: App name:server id:0 online
+2015-08-30 18:02:53: App name:server id:0 exited with code 255
+2015-08-30 18:02:53: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:53: App name:server id:0 online
+2015-08-30 18:02:54: App name:server id:0 exited with code 255
+2015-08-30 18:02:54: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:54: App name:server id:0 online
+2015-08-30 18:02:55: App name:server id:0 exited with code 255
+2015-08-30 18:02:55: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:55: App name:server id:0 online
+2015-08-30 18:02:56: App name:server id:0 exited with code 255
+2015-08-30 18:02:56: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:56: App name:server id:0 online
+2015-08-30 18:02:57: App name:server id:0 exited with code 255
+2015-08-30 18:02:57: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:57: App name:server id:0 online
+2015-08-30 18:02:58: App name:server id:0 exited with code 255
+2015-08-30 18:02:58: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:58: App name:server id:0 online
+2015-08-30 18:02:59: App name:server id:0 exited with code 255
+2015-08-30 18:02:59: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:02:59: App name:server id:0 online
+2015-08-30 18:03:00: App name:server id:0 exited with code 255
+2015-08-30 18:03:00: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:00: App name:server id:0 online
+2015-08-30 18:03:01: App name:server id:0 exited with code 255
+2015-08-30 18:03:01: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:01: App name:server id:0 online
+2015-08-30 18:03:02: App name:server id:0 exited with code 255
+2015-08-30 18:03:02: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:02: App name:server id:0 online
+2015-08-30 18:03:03: App name:server id:0 exited with code 255
+2015-08-30 18:03:03: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:03: App name:server id:0 online
+2015-08-30 18:03:04: App name:server id:0 exited with code 255
+2015-08-30 18:03:04: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:04: App name:server id:0 online
+2015-08-30 18:03:05: App name:server id:0 exited with code 255
+2015-08-30 18:03:05: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:05: App name:server id:0 online
+2015-08-30 18:03:06: App name:server id:0 exited with code 255
+2015-08-30 18:03:06: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:06: App name:server id:0 online
+2015-08-30 18:03:07: App name:server id:0 exited with code 255
+2015-08-30 18:03:07: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:07: App name:server id:0 online
+2015-08-30 18:03:08: App name:server id:0 exited with code 255
+2015-08-30 18:03:08: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:08: App name:server id:0 online
+2015-08-30 18:03:09: App name:server id:0 exited with code 255
+2015-08-30 18:03:09: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:09: App name:server id:0 online
+2015-08-30 18:03:10: App name:server id:0 exited with code 255
+2015-08-30 18:03:10: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:10: App name:server id:0 online
+2015-08-30 18:03:11: App name:server id:0 exited with code 255
+2015-08-30 18:03:11: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:11: App name:server id:0 online
+2015-08-30 18:03:12: App name:server id:0 exited with code 255
+2015-08-30 18:03:12: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:12: App name:server id:0 online
+2015-08-30 18:03:13: App name:server id:0 exited with code 255
+2015-08-30 18:03:13: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:13: App name:server id:0 online
+2015-08-30 18:03:14: App name:server id:0 exited with code 255
+2015-08-30 18:03:14: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:14: App name:server id:0 online
+2015-08-30 18:03:15: App name:server id:0 exited with code 255
+2015-08-30 18:03:15: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:15: App name:server id:0 online
+2015-08-30 18:03:16: App name:server id:0 exited with code 255
+2015-08-30 18:03:16: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:16: App name:server id:0 online
+2015-08-30 18:03:17: App name:server id:0 exited with code 255
+2015-08-30 18:03:17: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:17: App name:server id:0 online
+2015-08-30 18:03:18: App name:server id:0 exited with code 255
+2015-08-30 18:03:18: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:18: App name:server id:0 online
+2015-08-30 18:03:19: App name:server id:0 exited with code 255
+2015-08-30 18:03:19: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:19: App name:server id:0 online
+2015-08-30 18:03:20: App name:server id:0 exited with code 255
+2015-08-30 18:03:20: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:20: App name:server id:0 online
+2015-08-30 18:03:21: App name:server id:0 exited with code 255
+2015-08-30 18:03:21: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:21: App name:server id:0 online
+2015-08-30 18:03:22: App name:server id:0 exited with code 255
+2015-08-30 18:03:22: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:22: App name:server id:0 online
+2015-08-30 18:03:23: App name:server id:0 exited with code 255
+2015-08-30 18:03:23: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:23: App name:server id:0 online
+2015-08-30 18:03:24: App name:server id:0 exited with code 255
+2015-08-30 18:03:24: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:24: App name:server id:0 online
+2015-08-30 18:03:25: App name:server id:0 exited with code 255
+2015-08-30 18:03:25: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:25: App name:server id:0 online
+2015-08-30 18:03:26: App name:server id:0 exited with code 255
+2015-08-30 18:03:26: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:26: App name:server id:0 online
+2015-08-30 18:03:27: App name:server id:0 exited with code 255
+2015-08-30 18:03:27: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:27: App name:server id:0 online
+2015-08-30 18:03:28: App name:server id:0 exited with code 255
+2015-08-30 18:03:28: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:28: App name:server id:0 online
+2015-08-30 18:03:29: App name:server id:0 exited with code 255
+2015-08-30 18:03:29: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:29: App name:server id:0 online
+2015-08-30 18:03:30: App name:server id:0 exited with code 255
+2015-08-30 18:03:30: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:30: App name:server id:0 online
+2015-08-30 18:03:31: App name:server id:0 exited with code 255
+2015-08-30 18:03:31: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:31: App name:server id:0 online
+2015-08-30 18:03:32: App name:server id:0 exited with code 255
+2015-08-30 18:03:32: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:32: App name:server id:0 online
+2015-08-30 18:03:33: App name:server id:0 exited with code 255
+2015-08-30 18:03:33: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:33: App name:server id:0 online
+2015-08-30 18:03:34: App name:server id:0 exited with code 255
+2015-08-30 18:03:34: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:34: App name:server id:0 online
+2015-08-30 18:03:35: App name:server id:0 exited with code 255
+2015-08-30 18:03:35: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:35: App name:server id:0 online
+2015-08-30 18:03:36: App name:server id:0 exited with code 255
+2015-08-30 18:03:36: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:36: App name:server id:0 online
+2015-08-30 18:03:37: App name:server id:0 exited with code 255
+2015-08-30 18:03:37: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:37: App name:server id:0 online
+2015-08-30 18:03:38: App name:server id:0 exited with code 255
+2015-08-30 18:03:38: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:38: App name:server id:0 online
+2015-08-30 18:03:39: App name:server id:0 exited with code 255
+2015-08-30 18:03:39: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:39: App name:server id:0 online
+2015-08-30 18:03:40: App name:server id:0 exited with code 255
+2015-08-30 18:03:40: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:40: App name:server id:0 online
+2015-08-30 18:03:41: App name:server id:0 exited with code 255
+2015-08-30 18:03:42: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:42: App name:server id:0 online
+2015-08-30 18:03:43: App name:server id:0 exited with code 255
+2015-08-30 18:03:43: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:43: App name:server id:0 online
+2015-08-30 18:03:44: App name:server id:0 exited with code 255
+2015-08-30 18:03:44: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:44: App name:server id:0 online
+2015-08-30 18:03:44: Stopping app:server id:0
+2015-08-30 18:03:44: App name:server id:0 exited with code 130
+2015-08-30 18:03:44: Process with pid 30469 killed
+2015-08-30 18:03:50: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:50: App name:server id:0 online
+2015-08-30 18:03:51: App name:server id:0 exited with code 255
+2015-08-30 18:03:51: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:51: App name:server id:0 online
+2015-08-30 18:03:52: App name:server id:0 exited with code 255
+2015-08-30 18:03:52: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:52: App name:server id:0 online
+2015-08-30 18:03:53: App name:server id:0 exited with code 255
+2015-08-30 18:03:53: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:53: App name:server id:0 online
+2015-08-30 18:03:54: App name:server id:0 exited with code 255
+2015-08-30 18:03:54: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:54: App name:server id:0 online
+2015-08-30 18:03:55: App name:server id:0 exited with code 255
+2015-08-30 18:03:56: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:56: App name:server id:0 online
+2015-08-30 18:03:56: App name:server id:0 exited with code 255
+2015-08-30 18:03:56: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:56: App name:server id:0 online
+2015-08-30 18:03:58: App name:server id:0 exited with code 255
+2015-08-30 18:03:58: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:58: App name:server id:0 online
+2015-08-30 18:03:59: App name:server id:0 exited with code 255
+2015-08-30 18:03:59: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:03:59: App name:server id:0 online
+2015-08-30 18:04:00: App name:server id:0 exited with code 255
+2015-08-30 18:04:00: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:04:00: App name:server id:0 online
+2015-08-30 18:04:01: App name:server id:0 exited with code 255
+2015-08-30 18:04:01: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:04:01: App name:server id:0 online
+2015-08-30 18:04:02: App name:server id:0 exited with code 255
+2015-08-30 18:04:02: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:04:02: App name:server id:0 online
+2015-08-30 18:04:03: App name:server id:0 exited with code 255
+2015-08-30 18:04:03: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:04:03: App name:server id:0 online
+2015-08-30 18:04:04: App name:server id:0 exited with code 255
+2015-08-30 18:04:04: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:04:04: App name:server id:0 online
+2015-08-30 18:04:05: Stopping app:server id:0
+2015-08-30 18:04:05: App name:server id:0 exited with code 130
+2015-08-30 18:04:05: Process with pid 30562 killed
+2015-08-30 18:15:06: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:15:06: App name:server id:0 online
+2015-08-30 18:30:09: Stopping app:server id:0
+2015-08-30 18:30:09: App name:server id:0 exited with code 130
+2015-08-30 18:30:09: Process with pid 30649 killed
+2015-08-30 18:30:09: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:30:09: App name:server id:0 online
+2015-08-30 18:36:40: Stopping app:server id:0
+2015-08-30 18:36:40: App name:server id:0 exited with code 130
+2015-08-30 18:36:40: Process with pid 30976 killed
+2015-08-30 18:36:43: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:36:43: App name:server id:0 online
+2015-08-30 18:37:07: Stopping app:server id:0
+2015-08-30 18:37:07: App name:server id:0 exited with code 130
+2015-08-30 18:37:07: Process with pid 31153 killed
+2015-08-30 18:37:07: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:37:07: App name:server id:0 online
+2015-08-30 18:37:10: Stopping app:server id:0
+2015-08-30 18:37:10: App name:server id:0 exited with code 130
+2015-08-30 18:37:10: Process with pid 31175 killed
+2015-08-30 18:37:12: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:37:12: App name:server id:0 online
+2015-08-30 18:41:01: Stopping app:server id:0
+2015-08-30 18:41:01: App name:server id:0 exited with code 130
+2015-08-30 18:41:02: Process with pid 31185 killed
+2015-08-30 18:45:03: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 18:45:03: App name:server id:0 online
+2015-08-30 22:49:48: Stopping app:server id:0
+2015-08-30 22:49:48: App name:server id:0 exited with code 130
+2015-08-30 22:49:48: Process with pid 31334 killed
+2015-08-30 22:49:56: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-30 22:49:56: App name:server id:0 online
+2015-08-31 00:22:10: Stopping app:server id:0
+2015-08-31 00:22:10: Process with pid 2419 still not killed, retrying...
+2015-08-31 00:22:10: App name:server id:0 exited with code 130
+2015-08-31 00:22:11: Process with pid 2419 killed
+2015-08-31 00:22:19: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 00:22:19: App name:server id:0 online
+2015-08-31 10:36:22: Stopping app:server id:0
+2015-08-31 10:36:22: App name:server id:0 exited with code 130
+2015-08-31 10:36:22: Process with pid 4769 killed
+2015-08-31 10:36:37: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 10:36:37: App name:server id:0 online
+2015-08-31 14:27:53: Stopping app:server id:0
+2015-08-31 14:27:53: App name:server id:0 exited with code 130
+2015-08-31 14:27:53: Process with pid 16175 killed
+2015-08-31 14:27:58: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 14:27:58: App name:server id:0 online
+2015-08-31 15:03:16: Stopping app:server id:0
+2015-08-31 15:03:16: Process with pid 20935 still not killed, retrying...
+2015-08-31 15:03:16: App name:server id:0 exited with code 130
+2015-08-31 15:03:16: Process with pid 20935 killed
+2015-08-31 15:03:19: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:03:19: App name:server id:0 online
+2015-08-31 15:03:22: App name:server id:0 exited with code 255
+2015-08-31 15:03:22: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:03:23: App name:server id:0 online
+2015-08-31 15:03:24: App name:server id:0 exited with code 255
+2015-08-31 15:03:24: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:03:24: App name:server id:0 online
+2015-08-31 15:03:25: App name:server id:0 exited with code 255
+2015-08-31 15:03:25: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:03:25: App name:server id:0 online
+2015-08-31 15:03:26: App name:server id:0 exited with code 255
+2015-08-31 15:03:26: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:03:26: App name:server id:0 online
+2015-08-31 15:03:27: App name:server id:0 exited with code 255
+2015-08-31 15:03:27: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:03:27: App name:server id:0 online
+2015-08-31 15:03:28: App name:server id:0 exited with code 255
+2015-08-31 15:03:28: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:03:28: App name:server id:0 online
+2015-08-31 15:03:29: App name:server id:0 exited with code 255
+2015-08-31 15:03:29: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:03:29: App name:server id:0 online
+2015-08-31 15:03:30: App name:server id:0 exited with code 255
+2015-08-31 15:03:30: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:03:30: App name:server id:0 online
+2015-08-31 15:03:31: App name:server id:0 exited with code 255
+2015-08-31 15:03:31: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:03:31: App name:server id:0 online
+2015-08-31 15:03:32: App name:server id:0 exited with code 255
+2015-08-31 15:03:32: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:03:32: App name:server id:0 online
+2015-08-31 15:03:34: App name:server id:0 exited with code 255
+2015-08-31 15:03:34: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:03:34: App name:server id:0 online
+2015-08-31 15:03:35: App name:server id:0 exited with code 255
+2015-08-31 15:03:35: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:03:35: App name:server id:0 online
+2015-08-31 15:03:36: App name:server id:0 exited with code 255
+2015-08-31 15:03:36: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:03:36: App name:server id:0 online
+2015-08-31 15:03:37: App name:server id:0 exited with code 255
+2015-08-31 15:03:37: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:03:37: App name:server id:0 online
+2015-08-31 15:03:38: App name:server id:0 exited with code 255
+2015-08-31 15:03:40: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:03:40: App name:server id:0 online
+2015-08-31 15:03:41: App name:server id:0 exited with code 255
+2015-08-31 15:03:41: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:03:41: App name:server id:0 online
+2015-08-31 15:03:42: App name:server id:0 exited with code 255
+2015-08-31 15:03:42: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:03:42: App name:server id:0 online
+2015-08-31 15:03:43: App name:server id:0 exited with code 255
+2015-08-31 15:03:43: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:03:43: App name:server id:0 online
+2015-08-31 15:03:44: App name:server id:0 exited with code 255
+2015-08-31 15:03:44: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:03:44: App name:server id:0 online
+2015-08-31 15:03:45: App name:server id:0 exited with code 255
+2015-08-31 15:03:45: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:03:45: App name:server id:0 online
+2015-08-31 15:03:46: App name:server id:0 exited with code 255
+2015-08-31 15:03:46: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:03:46: App name:server id:0 online
+2015-08-31 15:03:48: App name:server id:0 exited with code 255
+2015-08-31 15:03:48: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:03:48: App name:server id:0 online
+2015-08-31 15:03:49: App name:server id:0 exited with code 255
+2015-08-31 15:03:49: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:03:49: App name:server id:0 online
+2015-08-31 15:03:50: App name:server id:0 exited with code 255
+2015-08-31 15:03:50: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:03:50: App name:server id:0 online
+2015-08-31 15:03:51: App name:server id:0 exited with code 255
+2015-08-31 15:03:51: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:03:51: App name:server id:0 online
+2015-08-31 15:03:52: App name:server id:0 exited with code 255
+2015-08-31 15:03:52: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:03:52: App name:server id:0 online
+2015-08-31 15:03:53: App name:server id:0 exited with code 255
+2015-08-31 15:03:53: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:03:53: App name:server id:0 online
+2015-08-31 15:03:54: App name:server id:0 exited with code 255
+2015-08-31 15:03:54: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:03:54: App name:server id:0 online
+2015-08-31 15:03:55: App name:server id:0 exited with code 255
+2015-08-31 15:03:55: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:03:55: App name:server id:0 online
+2015-08-31 15:03:56: App name:server id:0 exited with code 255
+2015-08-31 15:03:56: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:03:56: App name:server id:0 online
+2015-08-31 15:03:57: App name:server id:0 exited with code 255
+2015-08-31 15:03:57: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:03:57: App name:server id:0 online
+2015-08-31 15:03:59: App name:server id:0 exited with code 255
+2015-08-31 15:03:59: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:03:59: App name:server id:0 online
+2015-08-31 15:04:00: App name:server id:0 exited with code 255
+2015-08-31 15:04:00: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:04:00: App name:server id:0 online
+2015-08-31 15:04:01: App name:server id:0 exited with code 255
+2015-08-31 15:04:01: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:04:01: App name:server id:0 online
+2015-08-31 15:04:02: App name:server id:0 exited with code 255
+2015-08-31 15:04:02: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:04:02: App name:server id:0 online
+2015-08-31 15:04:03: App name:server id:0 exited with code 255
+2015-08-31 15:04:03: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:04:03: App name:server id:0 online
+2015-08-31 15:04:04: App name:server id:0 exited with code 255
+2015-08-31 15:04:04: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:04:04: App name:server id:0 online
+2015-08-31 15:04:05: App name:server id:0 exited with code 255
+2015-08-31 15:04:05: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:04:05: App name:server id:0 online
+2015-08-31 15:04:06: App name:server id:0 exited with code 255
+2015-08-31 15:04:06: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:04:06: App name:server id:0 online
+2015-08-31 15:04:08: App name:server id:0 exited with code 255
+2015-08-31 15:04:08: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:04:08: App name:server id:0 online
+2015-08-31 15:04:09: App name:server id:0 exited with code 255
+2015-08-31 15:04:09: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:04:09: App name:server id:0 online
+2015-08-31 15:04:10: App name:server id:0 exited with code 255
+2015-08-31 15:04:10: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:04:10: App name:server id:0 online
+2015-08-31 15:04:11: App name:server id:0 exited with code 255
+2015-08-31 15:04:11: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:04:11: App name:server id:0 online
+2015-08-31 15:04:12: App name:server id:0 exited with code 255
+2015-08-31 15:04:12: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:04:12: App name:server id:0 online
+2015-08-31 15:04:13: App name:server id:0 exited with code 255
+2015-08-31 15:04:13: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:04:13: App name:server id:0 online
+2015-08-31 15:04:14: App name:server id:0 exited with code 255
+2015-08-31 15:04:14: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:04:14: App name:server id:0 online
+2015-08-31 15:04:15: App name:server id:0 exited with code 255
+2015-08-31 15:04:15: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:04:15: App name:server id:0 online
+2015-08-31 15:04:16: App name:server id:0 exited with code 255
+2015-08-31 15:04:16: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:04:16: App name:server id:0 online
+2015-08-31 15:04:17: App name:server id:0 exited with code 255
+2015-08-31 15:04:17: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:04:17: App name:server id:0 online
+2015-08-31 15:04:18: App name:server id:0 exited with code 255
+2015-08-31 15:04:18: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:04:18: App name:server id:0 online
+2015-08-31 15:04:19: App name:server id:0 exited with code 255
+2015-08-31 15:04:19: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:04:19: App name:server id:0 online
+2015-08-31 15:04:20: App name:server id:0 exited with code 255
+2015-08-31 15:04:21: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:04:21: App name:server id:0 online
+2015-08-31 15:04:22: App name:server id:0 exited with code 255
+2015-08-31 15:04:22: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:04:22: App name:server id:0 online
+2015-08-31 15:04:23: App name:server id:0 exited with code 255
+2015-08-31 15:04:23: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:04:23: App name:server id:0 online
+2015-08-31 15:04:24: App name:server id:0 exited with code 255
+2015-08-31 15:04:24: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:04:24: App name:server id:0 online
+2015-08-31 15:04:25: App name:server id:0 exited with code 255
+2015-08-31 15:04:25: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:04:25: App name:server id:0 online
+2015-08-31 15:04:26: App name:server id:0 exited with code 255
+2015-08-31 15:04:26: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:04:26: App name:server id:0 online
+2015-08-31 15:04:27: App name:server id:0 exited with code 255
+2015-08-31 15:04:27: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:04:27: App name:server id:0 online
+2015-08-31 15:04:28: App name:server id:0 exited with code 255
+2015-08-31 15:04:28: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:04:28: App name:server id:0 online
+2015-08-31 15:04:29: App name:server id:0 exited with code 255
+2015-08-31 15:04:29: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:04:29: App name:server id:0 online
+2015-08-31 15:04:30: App name:server id:0 exited with code 255
+2015-08-31 15:04:30: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:04:30: App name:server id:0 online
+2015-08-31 15:04:32: App name:server id:0 exited with code 255
+2015-08-31 15:04:32: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:04:32: App name:server id:0 online
+2015-08-31 15:04:33: App name:server id:0 exited with code 255
+2015-08-31 15:04:33: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:04:33: App name:server id:0 online
+2015-08-31 15:04:34: App name:server id:0 exited with code 255
+2015-08-31 15:04:34: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:04:34: App name:server id:0 online
+2015-08-31 15:04:35: App name:server id:0 exited with code 255
+2015-08-31 15:04:35: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:04:35: App name:server id:0 online
+2015-08-31 15:04:36: App name:server id:0 exited with code 255
+2015-08-31 15:04:36: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:04:36: App name:server id:0 online
+2015-08-31 15:04:37: App name:server id:0 exited with code 255
+2015-08-31 15:04:37: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:04:37: App name:server id:0 online
+2015-08-31 15:04:38: App name:server id:0 exited with code 255
+2015-08-31 15:04:38: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:04:38: App name:server id:0 online
+2015-08-31 15:04:39: App name:server id:0 exited with code 255
+2015-08-31 15:04:39: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:04:39: App name:server id:0 online
+2015-08-31 15:04:40: App name:server id:0 exited with code 255
+2015-08-31 15:04:40: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:04:40: App name:server id:0 online
+2015-08-31 15:04:41: App name:server id:0 exited with code 255
+2015-08-31 15:04:41: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:04:41: App name:server id:0 online
+2015-08-31 15:04:42: App name:server id:0 exited with code 255
+2015-08-31 15:04:42: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:04:42: App name:server id:0 online
+2015-08-31 15:04:44: App name:server id:0 exited with code 255
+2015-08-31 15:04:44: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:04:44: App name:server id:0 online
+2015-08-31 15:04:45: App name:server id:0 exited with code 255
+2015-08-31 15:04:45: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:04:45: App name:server id:0 online
+2015-08-31 15:04:46: App name:server id:0 exited with code 255
+2015-08-31 15:04:46: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:04:46: App name:server id:0 online
+2015-08-31 15:04:47: App name:server id:0 exited with code 255
+2015-08-31 15:04:47: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:04:47: App name:server id:0 online
+2015-08-31 15:04:48: App name:server id:0 exited with code 255
+2015-08-31 15:04:48: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:04:48: App name:server id:0 online
+2015-08-31 15:04:49: App name:server id:0 exited with code 255
+2015-08-31 15:04:49: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:04:49: App name:server id:0 online
+2015-08-31 15:04:50: App name:server id:0 exited with code 255
+2015-08-31 15:04:50: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:04:50: App name:server id:0 online
+2015-08-31 15:04:51: App name:server id:0 exited with code 255
+2015-08-31 15:04:51: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:04:51: App name:server id:0 online
+2015-08-31 15:04:52: Stopping app:server id:0
+2015-08-31 15:04:52: App name:server id:0 exited with code 130
+2015-08-31 15:04:52: Process with pid 22421 killed
+2015-08-31 15:07:26: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 15:07:26: App name:server id:0 online
+2015-08-31 19:49:46: Stopping app:server id:0
+2015-08-31 19:49:46: App name:server id:0 exited with code 130
+2015-08-31 19:49:46: Process with pid 22485 killed
+2015-08-31 19:49:51: Starting execution sequence in -fork mode- for app name:server id:0
+2015-08-31 19:49:51: App name:server id:0 online
+2015-09-01 02:00:06: Stopping app:server id:0
+2015-09-01 02:00:06: App name:server id:0 exited with code 130
+2015-09-01 02:00:06: Process with pid 28727 killed
+2015-09-01 02:00:11: Starting execution sequence in -fork mode- for app name:server id:0
+2015-09-01 02:00:11: App name:server id:0 online
+2015-09-01 02:06:02: App name:server id:0 exited with code SIGABRT
+2015-09-01 02:06:02: Starting execution sequence in -fork mode- for app name:server id:0
+2015-09-01 02:06:02: App name:server id:0 online
+2015-09-01 02:09:18: App name:server id:0 exited with code SIGABRT
+2015-09-01 02:09:18: Starting execution sequence in -fork mode- for app name:server id:0
+2015-09-01 02:09:18: App name:server id:0 online
+2015-09-01 09:54:49: Stopping app:server id:0
+2015-09-01 09:54:49: App name:server id:0 exited with code 130
+2015-09-01 09:54:49: Process with pid 4167 killed
+2015-09-01 09:54:53: Starting execution sequence in -fork mode- for app name:server id:0
+2015-09-01 09:54:53: App name:server id:0 online
+2015-09-01 10:22:37: Stopping app:server id:0
+2015-09-01 10:22:37: App name:server id:0 exited with code 130
+2015-09-01 10:22:37: Process with pid 21902 killed
+2015-09-01 10:22:51: Starting execution sequence in -fork mode- for app name:server id:0
+2015-09-01 10:22:51: App name:server id:0 online
+2015-09-01 11:00:32: Stopping app:server id:0
+2015-09-01 11:00:32: App name:server id:0 exited with code 130
+2015-09-01 11:00:32: Process with pid 22536 killed
+2015-09-01 11:00:35: Starting execution sequence in -fork mode- for app name:server id:0
+2015-09-01 11:00:35: App name:server id:0 online
+2015-09-01 15:20:20: Stopping app:server id:0
+2015-09-01 15:20:20: Process with pid 23197 still not killed, retrying...
+2015-09-01 15:20:20: Process with pid 23197 still not killed, retrying...
+2015-09-01 15:20:20: App name:server id:0 exited with code 130
+2015-09-01 15:20:20: Process with pid 23197 killed
+2015-09-01 15:20:26: Starting execution sequence in -fork mode- for app name:server id:0
+2015-09-01 15:20:27: App name:server id:0 online

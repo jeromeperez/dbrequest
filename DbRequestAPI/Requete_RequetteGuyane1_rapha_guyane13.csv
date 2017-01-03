@@ -1,0 +1,227 @@
+"a._id","a._parent","a.id_tax_aubl2","a.notho","a.nom","a.auteur","a.notes"
+1,null,null,null,"Euphorbiaceae","Juss.",null
+4,null,null,null,"Hypoxidaceae","R.Br.",null
+21,null,null,null,"Canellaceae","Mart.",null
+47,null,null,null,"Marantaceae","R.Br.",null
+69,null,null,null,"Alstroemeriaceae","Dumort.",null
+78,null,null,null,"Elaeocarpaceae","Juss.",null
+118,null,null,null,"Acanthaceae","Juss.",null
+180,null,null,null,"Aquifoliaceae","Bercht. & J.Presl",null
+196,null,null,null,"Leguminosae","Juss.",null
+199,null,null,null,"Myricaceae","A.Rich. ex Kunth",null
+225,null,null,null,"Araceae","Juss.",null
+267,null,null,null,"Caricaceae","Dumort.",null
+491,null,null,null,"Achariaceae","Harms",null
+679,null,null,null,"Actinidiaceae","Gilg & Werderm.",null
+765,null,null,null,"Adoxaceae","E.Mey.",null
+973,null,null,null,"Aizoaceae","Martinov",null
+1079,null,null,null,"Alismataceae","Vent.",null
+1226,null,null,null,"Amaranthaceae","Juss.",null
+1263,null,null,null,"Amaryllidaceae","J.St.-Hil.",null
+1397,null,null,null,"Anacardiaceae","R.Br.",null
+1780,null,null,null,"Anisophylleaceae","Ridl.",null
+1868,null,null,null,"Annonaceae","Juss.",null
+2075,null,null,null,"Apiaceae","Lindl.",null
+2111,null,null,null,"Apocynaceae","Juss.",null
+2163,null,null,null,"Araliaceae","Juss.",null
+2180,null,null,null,"Arecaceae","Bercht. & J.Presl",null
+2254,null,null,null,"Aristolochiaceae","Juss.",null
+2481,null,null,null,"Asparagaceae","Juss.",null
+2551,null,null,null,"Asteraceae","Bercht. & J.Presl",null
+2922,null,null,null,"Balanophoraceae","Rich.",null
+2960,null,null,null,"Balsaminaceae","A.Rich.",null
+3099,null,null,null,"Basellaceae","Raf.",null
+3107,null,null,null,"Bataceae","Mart. ex Perleb",null
+3280,null,null,null,"Begoniaceae","C.Agardh",null
+3347,null,null,null,"Berberidaceae","Juss.",null
+3551,null,null,null,"Bignoniaceae","Juss.",null
+3596,null,null,null,"Bixaceae","Kunth",null
+3802,null,null,null,"Bonnetiaceae","L.Beauvis. ex Nakai",null
+3809,null,null,null,"Boraginaceae","Juss.",null
+3986,null,null,null,"Brassicaceae","Burnett",null
+4074,null,null,null,"Bromeliaceae","Juss.",null
+4142,null,null,null,"Brunelliaceae","Engl.",null
+4289,null,null,null,"Burmanniaceae","Blume",null
+4301,null,null,null,"Burseraceae","Kunth",null
+4304,null,null,null,"Buxaceae","Dumort.",null
+4417,null,null,null,"Cabombaceae","Rich. ex A.Rich.",null
+4444,null,null,null,"Cactaceae","Juss.",null
+4597,null,null,null,"Calceolariaceae","Olmstead",null
+4677,null,null,null,"Calophyllaceae","J.Agardh",null
+4799,null,null,null,"Campanulaceae","Juss.",null
+4872,null,null,null,"Cannabaceae","Martinov",null
+4873,null,null,null,"Cannaceae","Juss.",null
+4896,null,null,null,"Capparaceae","Juss.",null
+4930,null,null,null,"Caprifoliaceae","Juss.",null
+4993,null,null,null,"Cardiopteridaceae","Blume",null
+5083,null,null,null,"Caryocaraceae","Voigt",null
+5095,null,null,null,"Caryophyllaceae","Juss.",null
+5363,null,null,null,"Casuarinaceae","R.Br.",null
+5526,null,null,null,"Celastraceae","R.Br.",null
+5786,null,null,null,"Ceratophyllaceae","Gray",null
+6065,null,null,null,"Chloranthaceae","R.Br. ex Sims",null
+6191,null,null,null,"Chrysobalanaceae","R.Br.",null
+6524,null,null,null,"Cleomaceae","Bercht. & J.Presl",null
+6571,null,null,null,"Clethraceae","Klotzsch",null
+6842,null,null,null,"Clusiaceae","Lindl.",null
+6967,null,null,null,"Colchicaceae","DC.",null
+6994,null,null,null,"Columelliaceae","D.Don",null
+7012,null,null,null,"Combretaceae","R.Br.",null
+7069,null,null,null,"Commelinaceae","Mirb.",null
+7138,null,null,null,"Connaraceae","R.Br.",null
+7209,null,null,null,"Convolvulaceae","Juss.",null
+7453,null,null,null,"Cornaceae","Bercht. & J.Presl",null
+7523,null,null,null,"Costaceae","Nakai",null
+7790,null,null,null,"Crassulaceae","J.St.-Hil.",null
+8043,null,null,null,"Cucurbitaceae","Juss.",null
+8051,null,null,null,"Cunoniaceae","R.Br.",null
+8199,null,null,null,"Cyclanthaceae","Poit. ex A.Rich.",null
+8327,null,null,null,"Cynomoriaceae","Endl. ex Lindl.",null
+8340,null,null,null,"Cyperaceae","Juss.",null
+8512,null,null,null,"Cyrillaceae","Lindl.",null
+8962,null,null,null,"Dichapetalaceae","Baill.",null
+9206,null,null,null,"Dilleniaceae","Salisb.",null
+9393,null,null,null,"Dioscoreaceae","R.Br.",null
+9436,null,null,null,"Dipentodontaceae","Merr.",null
+9500,null,null,null,"Dipterocarpaceae","Blume",null
+9748,null,null,null,"Droseraceae","Salisb.",null
+9890,null,null,null,"Ebenaceae","Gürke",null
+10956,null,null,null,"Ericaceae","Juss.",null
+10964,null,null,null,"Eriocaulaceae","Martinov",null
+11113,null,null,null,"Erythroxylaceae","Kunth",null
+11553,null,null,null,"Euphroniaceae","Marc.-Berti",null
+11664,null,null,null,"Fabaceae","Lindl.",null
+11665,null,null,null,"Fagaceae","Dumort.",null
+12244,null,null,null,"Gelsemiaceae","Struwe & V.A.Albert",null
+12283,null,null,null,"Gentianaceae","Juss.",null
+12406,null,null,null,"Geraniaceae","Juss.",null
+12458,null,null,null,"Gesneriaceae","Rich. & Juss.",null
+12511,null,null,null,"Gnetaceae","Blume",null
+12650,null,null,null,"Goupiaceae","Miers",null
+13180,null,null,null,"Haemodoraceae","R.Br.",null
+13183,null,null,null,"Haloragaceae","R.Br.",null
+13389,null,null,null,"Heliconiaceae","Vines",null
+13508,null,null,null,"Hernandiaceae","Blume",null
+14116,null,null,null,"Humiriaceae","A.Juss.",null
+14157,null,null,null,"Hydroleaceae","R.Br. ex Edwards",null
+14159,null,null,null,"Hydrocharitaceae","Juss.",null
+14270,null,null,null,"Hypericaceae","Juss.",null
+14413,null,null,null,"Icacinaceae","Miers",null
+14566,null,null,null,"Indeterminae","-",null
+14968,null,null,null,"Iridaceae","Juss.",null
+15134,null,null,null,"Ixonanthaceae","Planch. ex Miq.",null
+15301,null,null,null,"Juncaceae","Juss.",null
+15492,null,null,null,"Krameriaceae","Dumort.",null
+15582,null,null,null,"Lacistemataceae","Mart.",null
+15647,null,null,null,"Lamiaceae","Martinov",null
+15727,null,null,null,"Lauraceae","Juss.",null
+15815,null,null,null,"Lecythidaceae","A.Rich.",null
+15989,null,null,null,"Lentibulariaceae","Rich.",null
+16044,null,null,null,"Lepidobotryaceae","J.Léonard",null
+16282,null,null,null,"Linderniaceae","Borsch, Kai Müll. & Eb.Fisch.",null
+16363,null,null,null,"Linaceae","DC. ex Perleb",null
+16504,null,null,null,"Loasaceae","Juss.",null
+16533,null,null,null,"Loganiaceae","R.Br. ex Mart.",null
+16597,null,null,null,"Loranthaceae","Juss.",null
+16810,null,null,null,"Lythraceae","J.St.-Hil.",null
+17074,null,null,null,"Magnoliaceae","Juss.",null
+17168,null,null,null,"Malvaceae","Juss.",null
+17204,null,null,null,"Malpighiaceae","Juss.",null
+17536,null,null,null,"Marcgraviaceae","Bercht. & J.Presl",null
+17672,null,null,null,"Martyniaceae","Horan.",null
+17989,null,null,null,"Mayacaceae","Kunth",null
+18069,null,null,null,"Meliaceae","Juss.",null
+18149,null,null,null,"Melastomataceae","Juss.",null
+18193,null,null,null,"Menyanthaceae","Dumort.",null
+18256,null,null,null,"Menispermaceae","Juss.",null
+19102,null,null,null,"Molluginaceae","Bartl.",null
+19146,null,null,null,"Monimiaceae","Juss.",null
+19273,null,null,null,"Moraceae","Gaudich.",null
+19292,null,null,null,"Moringaceae","Martinov",null
+19385,null,null,null,"Muntingiaceae","C.Bayer, M.W.Chase & M.F.Fay",null
+19404,null,null,null,"Musaceae","Juss.",null
+19532,null,null,null,"Myristicaceae","R.Br.",null
+19574,null,null,null,"Myrtaceae","Juss.",null
+19609,null,null,null,"Nartheciaceae","Fr. ex Bjurzon",null
+19747,null,null,null,"Nelumbonaceae","A.Rich.",null
+19957,null,null,null,"Nyctaginaceae","Juss.",null
+19977,null,null,null,"Nymphaeaceae","Salisb.",null
+19985,null,null,null,"Ochnaceae","DC.",null
+20216,null,null,null,"Olacaceae","R.Br.",null
+20257,null,null,null,"Oleaceae","Hoffmanns. & Link",null
+20338,null,null,null,"Onagraceae","Juss.",null
+20489,null,null,null,"Opiliaceae","Valeton",null
+20522,null,null,null,"Orchidaceae","Juss.",null
+20646,null,null,null,"Orobanchaceae","Vent.",null
+20832,null,null,null,"Oxalidaceae","R.Br.",null
+21133,null,null,null,"Pandanaceae","R.Br.",null
+21576,null,null,null,"Papaveraceae","Juss.",null
+22117,null,null,null,"Passifloraceae","Juss. ex Roussel",null
+22238,null,null,null,"Pedaliaceae","R.Br.",null
+22341,null,null,null,"Pentaphylacaceae","Engl.",null
+22562,null,null,null,"Peridiscaceae","Kuhlm.",null
+22615,null,null,null,"Rutaceae","Juss.",null
+22732,null,null,null,"Sabiaceae","Blume",null
+23068,null,null,null,"Phyllanthaceae","Martinov",null
+23184,null,null,null,"Phytolaccaceae","R.Br.",null
+23200,null,null,null,"Picrodendraceae","Small",null
+23638,null,null,null,"Piperaceae","Giseke",null
+23953,null,null,null,"Plantaginaceae","Juss.",null
+24262,null,null,null,"Plumbaginaceae","Juss.",null
+24323,null,null,null,"Poaceae","Barnhart",null
+24332,null,null,null,"Podostemaceae","Rich. ex Kunth",null
+24448,null,null,null,"Polygalaceae","Hoffmanns. & Link",null
+24449,null,null,null,"Polygonaceae","Juss.",null
+24538,null,null,null,"Pontederiaceae","Kunth",null
+24582,null,null,null,"Portulacaceae","Juss.",null
+24912,null,null,null,"Typhaceae","Juss.",null
+24927,null,null,null,"Primulaceae","Batsch ex Borkh.",null
+24967,null,null,null,"Proteaceae","Juss.",null
+25541,null,null,null,"Putranjivaceae","Meisn.",null
+25699,null,null,null,"Rafflesiaceae","Dumort.",null
+25723,null,null,null,"Ranunculaceae","Juss.",null
+25750,null,null,null,"Rapateaceae","Dumort.",null
+25899,null,null,null,"Rhizophoraceae","Pers.",null
+25911,null,null,null,"Rhabdodendraceae","Prance",null
+25925,null,null,null,"Rhamnaceae","Juss.",null
+26582,null,null,null,"Rosaceae","Juss.",null
+26664,null,null,null,"Rubiaceae","Juss.",null
+26744,null,null,null,"Ruppiaceae","Horan.",null
+26929,null,null,null,"Salicaceae","Mirb.",null
+26995,null,null,null,"Santalaceae","R.Br.",null
+27002,null,null,null,"Sapindaceae","Juss.",null
+27040,null,null,null,"Sapotaceae","Juss.",null
+27095,null,null,null,"Saururaceae","F.Voigt",null
+27594,null,null,null,"Scrophulariaceae","Juss.",null
+27663,null,null,null,"Selaginellaceae","Willk.",null
+27972,null,null,null,"Simaroubaceae","DC.",null
+28033,null,null,null,"Siparunaceae","Schodde",null
+28158,null,null,null,"Smilacaceae","Vent.",null
+28236,null,null,null,"Solanaceae","Juss.",null
+28607,null,null,null,"Sphenocleaceae","T.Baskerv.",null
+28811,null,null,null,"Staphyleaceae","Martinov",null
+28911,null,null,null,"Stemonuraceae","Kårehed",null
+29102,null,null,null,"Strelitziaceae","Hutch.",null
+29244,null,null,null,"Styracaceae","DC. & Spreng.",null
+29261,null,null,null,"Surianaceae","Arn.",null
+29412,null,null,null,"Symplocaceae","Desf.",null
+29728,null,null,null,"Talinaceae","Doweld",null
+30077,null,null,null,"Tetrameristaceae","Hutch.",null
+30153,null,null,null,"Theaceae","Mirb. ex Ker Gawl.",null
+30234,null,null,null,"Thurniaceae","Engl.",null
+30237,null,null,null,"Thymelaeaceae","Juss.",null
+30499,null,null,null,"Tofieldiaceae","Takht.",null
+30908,null,null,null,"Trigoniaceae","A.Juss.",null
+31004,null,null,null,"Triuridaceae","Gardner",null
+31411,null,null,null,"Ulmaceae","Mirb.",null
+31534,null,null,null,"Urticaceae","Juss.",null
+31654,null,null,null,"Velloziaceae","J.Agardh",null
+31680,null,null,null,"Verbenaceae","J.St.-Hil.",null
+31863,null,null,null,"Violaceae","Batsch",null
+31929,null,null,null,"Vitaceae","Juss.",null
+32002,null,null,null,"Vochysiaceae","A.St.-Hil.",null
+32214,null,null,null,"Winteraceae","R.Br. ex Lindl.",null
+32299,null,null,null,"Xanthorrhoeaceae","Dumort.",null
+32436,null,null,null,"Xyridaceae","C.Agardh",null
+32582,null,null,null,"Zingiberaceae","Martinov",null
+32676,null,null,null,"Zygophyllaceae","R.Br.",null

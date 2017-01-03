@@ -1,0 +1,70 @@
+<div class="container"><br>   
+  <div class="row">
+    <div class="col-sm-10">                                  
+  		<table class="table table-bordered table-hover table-condensed">
+   		 	<thead>
+      			<tr>
+      				<th></th>
+        			<th>{{ 'REQUETE_CONSTRUCTEUR_MENU_JOINTURE_TABLESOURCE' | translate }}</th>
+       		 		<th>{{ 'REQUETE_CONSTRUCTEUR_MENU_JOINTURE_CHAMPSOURCE' | translate }}</th>
+       		 		<th>{{ 'REQUETE_CONSTRUCTEUR_MENU_JOINTURE_TYPEDEJOINTURE' | translate }}</th>
+       		 		<th>{{ 'REQUETE_CONSTRUCTEUR_MENU_JOINTURE_TABLEDESTINATION' | translate }}</th>
+       		 		<th>{{ 'REQUETE_CONSTRUCTEUR_MENU_JOINTURE_CHAMPDESTINATION' | translate }}</th>
+      			</tr>
+    		</thead>
+    		<tbody>
+      			<tr ng-repeat="jointure in detailsRequeteJointure | orderBy : 'idjointure'" 
+      				ng-click="jointureLigne(jointure.idjointure)" ng-class="{selected: jointure.idjointure === idJointureSelectionne}" >
+      				<td>{{ jointure.idjointure }}</td>
+      				<td>{{ jointure.nomtablesource }}</td>
+      				<td>
+      					<div class="form-group">
+      						<div class="col-sm-9">
+      							{{ jointure.nomchampsource }}
+      						</div>
+      						<div class="col-sm-3">
+      							<button ng-click="jointureChampSource(jointure.idjointure); $event.stopPropagation();" class="btn btn-xs">
+      								<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+      							</button>
+      						</div>
+      					</div>
+      				</td>
+      				<td>
+      					<div class="form-group">
+      						<div class="col-sm-9">
+      							{{ jointure.typedejointure }}
+      						</div>
+      						<div class="col-sm-3">
+      							<button ng-click="jointureTypeDeJointure(jointure.idjointure); $event.stopPropagation();" class="btn btn-xs">
+      								<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+      							</button>
+      						</div>
+      					</div>
+      				</td>
+      				<td>{{ jointure.nomtabledestination }}</td>
+      				<td>
+      					<div class="form-group">
+      						<div class="col-sm-9">
+      							{{ jointure.nomchampdestination }}
+      						</div>
+      						<div class="col-sm-3">
+      							<button ng-click="jointureChampDestination(jointure.idjointure); $event.stopPropagation();" class="btn btn-xs">
+      								<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+      							</button>
+      						</div>
+      					</div>
+      				</td>
+      			</tr>
+    		</tbody>
+  		</table>
+    </div>
+    <div class="col-sm-1">
+        <br>
+    	<br>
+    	<button ng-click="ajouterJointure()"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button>
+    	<br>
+    	<br>
+    	<br>
+    	<button ng-click="supprimerJointure()"><span class="glyphicon glyphicon-minus" aria-hidden="true"></span></button>
+	</div>  		
+</div>

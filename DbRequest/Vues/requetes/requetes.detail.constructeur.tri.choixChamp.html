@@ -1,0 +1,40 @@
+<div class="modal-content">
+	<div class="modal-header">
+		<h3 class="modal-title">{{ 'REQUETE_CONSTRUCTEUR_MENU_TRI_CHAMP_CHOIXCHAMP' | translate }}</h3>
+	</div>
+
+	<div class="modal-body">
+      
+    <div class="row">
+	<div class="col-sm-12">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<a><strong>{{ 'REQUETE_CONSTRUCTEUR_MENU_TRI_CHAMP_CHOIXCHAMP_CHAMP' | translate }}</strong></a>
+			</div>
+			<div class="panel-body">
+				<div id="scrollArea" style="overflow: auto; height:260px;">
+					<table class="table table-bordered table-hover table-condensed">
+    					<tbody>
+      						<tr ng-repeat="tableChamp in listeTableChamp" ng-click="selectionTableChamp(tableChamp)">
+      							<td>
+      								{{tableChamp.nomtable}}
+      							</td>
+      							<td>
+      								{{tableChamp.nomchamp}}
+      							</td>
+  							</tr>
+    					</tbody>
+  					</table>
+				</div>
+			</div>
+		</div>
+	</div>	
+ 	</div>
+ 	
+    <div class="modal-footer">
+    </div>
+
+
+
+	
+</div>

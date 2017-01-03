@@ -1,0 +1,58 @@
+<div class="container"><br>   
+  <div class="row">
+    <div class="col-sm-11">                                  
+  		<table class="table table-bordered table-hover table-condensed">
+   		 	<thead>
+      			<tr>
+       		 		<th></th>
+        			<th>{{ 'REQUETE_CONSTRUCTEUR_MENU_CHAMPS_TABLE' | translate }}</th>
+        			<th>{{ 'REQUETE_CONSTRUCTEUR_MENU_CHAMPS_CHAMP' | translate }}</th>
+        			<th>{{ 'REQUETE_CONSTRUCTEUR_MENU_CHAMPS_AGREGATEUR' | translate }}</th>
+       		 		<th>{{ 'REQUETE_CONSTRUCTEUR_MENU_CHAMPS_ALIAS' | translate }}</th>
+      			</tr>
+    		</thead>
+    		<tbody>
+      			<tr ng-repeat="champ in detailsRequeteChamps | orderBy : 'idchamp'" ng-click="selectionChamp(champ.idchamp)" ng-class="{selected: champ.idchamp === idChampSelectionne}">
+      				<td>{{ champ.idchamp }}</td>
+      				<td>{{ champ.nomtable }}</td>
+    				<td>{{ champ.nomchamp }}</td>
+    				<td>
+    					<div class="form-group">
+      						<div class="col-sm-10">
+      							{{ champ.agregateur }}
+      						</div>
+      						<div class="col-sm-2">
+      							<button ng-click="selectionAgregateur(champ.idchamp); $event.stopPropagation();" class="btn btn-xs">
+      								<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+      							</button>
+      						</div>
+      					</div>
+      				</td>
+      				<td>
+    					<div class="form-group">
+      						<div class="col-sm-10">
+      							{{ champ.alias }}
+      						</div>
+      						<div class="col-sm-2">
+      							<button ng-click="selectionAlias(champ.idchamp); $event.stopPropagation();" class="btn btn-xs">
+      								<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+      							</button>
+      						</div>
+      					</div>
+      				</td>
+  				</tr>
+    		</tbody>
+  		</table>
+    </div>
+    <div class="col-sm-1">
+        <br>
+    	<br>
+    	<button ng-click="monterChamp()"><span class="glyphicon glyphicon-triangle-top" aria-hidden="true"></span></button>
+    	<br>
+    	<br>
+    	<br>
+    	<button ng-click="descendreChamp()"><span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span></button>
+    	
+    	
+	</div>  		
+</div>

@@ -1,0 +1,26 @@
+<div class="modal-content">
+	<div class="modal-header">
+		<h3 class="modal-title">{{ 'INVITEZ_NOUVEL_UTILISATEUR' | translate }}</h3>
+	</div>
+	<form name="formulaireInvitation"  novalidate>
+		<div class="modal-body">
+		
+			<div class="form-group" ng-class="{ 'has-error' : formulaireInvitation.mailUtilisateur.$invalid && !formulaireInvitation.mailUtilisateur.$pristine || formulaireInvitation.mailUtilisateur.$pristine && submitted }">
+				<label for="mailUtilisateur">{{ 'ENREGISTREMENT_MAIL_UTILISATEUR' | translate }}</label>
+				<input type="email" name="mailUtilisateur" class="form-control"
+         			ng-model="invitationUtilisateur.mailUtilisateur" required mailexiste  
+         			placeholder="{{ 'INVITEZ_NOUVEL_UTILISATEUR_MAIL_UTILISATEUR_PLACEHOLDER' | translate }}">
+         			<p ng-show="formulaireInvitation.mailUtilisateur.$error.required && submitted || formulaireInvitation.mailUtilisateur.$pristine && submitted " class="help-block">{{ 'ENREGISTREMENT_MAIL_UTILISATEUR_ERREUR_REQ' | translate }}</p>
+         			<p ng-show="formulaireInvitation.mailUtilisateur.$error.email && submitted " class="help-block">{{ 'ENREGISTREMENT_MAIL_UTILISATEUR_ERREUR' | translate }}</p>
+         			<p ng-show="formulaireInvitation.mailUtilisateur.$pending.mailexiste" class="help-block">{{ 'ENREGISTREMENT_MAIL_UTILISATEUR_PENDING_MAILEXISTE' | translate }}</p>
+         			<p ng-show="formulaireInvitation.mailUtilisateur.$error.mailexiste" class="help-block">{{ 'ENREGISTREMENT_MAIL_UTILISATEUR_ERREUR_MAILEXISTE' | translate }}</p>
+         	</div>	
+        </div>
+        	
+    	<div class="modal-footer">
+    		<button class="btn btn-primary" ng-click="invitation(formulaireInvitation.$valid , invitationUtilisateur)">{{ 'OK' | translate }}</button>
+            <button class="btn btn-warning" ng-click="annulation()">{{ 'ANNULEZ' | translate }}</button>
+    	</div>
+ 	</form>
+
+</div>

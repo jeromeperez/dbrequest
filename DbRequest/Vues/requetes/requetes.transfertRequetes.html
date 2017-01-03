@@ -1,0 +1,46 @@
+
+<div class="modal-content">
+	<div class="modal-header">
+		<h3 class="modal-title">{{ 'REQUETES_LISTE_TRANSFERT_REQUETES' | translate }}</h3>
+	</div>
+	
+       
+       <table class="table table-hover">
+    	<thead>
+      		<tr>
+        		<th>{{ 'REQUETES_LISTE_NOM_REQUETE' | translate }}</th>
+      		</tr>
+    	</thead>
+    	<tbody>
+      		<tr ng-repeat="requetePourTransfert in listeRequetesPourTransfert | orderBy:'nomrequete'">
+        		<td><a>{{requetePourTransfert.nomrequete}}</a></td>
+      		</tr>
+    	</tbody>
+  	   </table>  
+ 
+ 	
+ 	   <form name="formulaireTransfert" ng-submit="transfertDesRequetes(formulaireTransfert.$valid ,nouvelUtilisateur)" novalidate>
+		<div class="modal-body">
+			<div class="form-group" ng-class="{ 'has-error' : formulaireTransfert.nomNouvelUtilisateur.$invalid && !formulaireTransfert.nomNouvelUtilisateur.$pristine || formulaireTransfert.nomNouvelUtilisateur.$pristine && submitted   }">
+  				<label for="nomNouvelUtilisateur">{{ 'REQUETES_LISTE_TRANSFERT_NOUVEL_UTILISATEUR' | translate }}</label>
+  				<input type="text" name="nomNouvelUtilisateur" class="form-control"
+         		ng-model="nouvelUtilisateur.nomNouvelUtilisateur" required ng-minlength="4" ng-maxlength="12" nomutilisateurtransfertexiste
+         			placeholder="{{ 'ENREGISTREMENT_NOM_UTILISATEUR_PLACEHOLDER' | translate }}">
+         		<p ng-show="formulaireTransfert.nomNouvelUtilisateur.$error.required && submitted" class="help-block">{{ 'ENREGISTREMENT_NOM_UTILISATEUR_ERREUR_REQ' | translate }}</p>
+         		<p ng-show="formulaireTransfert.nomNouvelUtilisateur.$error.minlength && submitted"  class="help-block">{{ 'ENREGISTREMENT_NOM_UTILISATEUR_ERREUR_MIN' | translate }}</p>
+    			<p ng-show="formulaireTransfert.nomNouvelUtilisateur.$error.maxlength && submitted" class="help-block">{{ 'ENREGISTREMENT_NOM_UTILISATEUR_ERREUR_MAX' | translate }}</p>
+    			<p ng-show="formulaireTransfert.nomNouvelUtilisateur.$pending.nomexiste" class="help-block">{{ 'REQUETES_LISTE_TRANSFERT_NOM_UTILISATEUR_PENDING_NOMEXISTE' | translate }}</p>
+         		<p ng-show="formulaireTransfert.nomNouvelUtilisateur.$error.nomexiste" class="help-block">{{ 'REQUETES_LISTE_TRANSFERT_NOM_UTILISATEUR_ERREUR_NOMEXISTE' | translate }}</p>
+         	</div>
+ 		</div>
+ 		
+ 		<div class="modal-footer">
+            <button type="submit" class="btn btn-primary">{{ 'REQUETES_LISTE_TRANSFERT' | translate }}</button>
+            <button class="btn btn-warning" ng-click="annulation()">{{ 'ANNULEZ' | translate }}</button>
+    	</div>	
+ 		
+ 	   </form>
+ 	
+ 	</div>
+    
+</div>

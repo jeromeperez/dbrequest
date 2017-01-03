@@ -1,0 +1,34 @@
+
+<div class="modal-content">
+	<div class="modal-header">
+		<h3 class="modal-title">{{ 'CONNEXION' | translate }}</h3>
+	</div>
+	<form name="formulaireSignature" ng-submit="connexion(formulaireSignature.$valid ,signatureUtilisateur)" novalidate>
+		<div class="modal-body">
+			<div class="form-group" ng-class="{ 'has-error' : formulaireSignature.nomUtilisateurConnexion.$invalid && !formulaireSignature.nomUtilisateurConnexion.$pristine || formulaireSignature.nomUtilisateurConnexion.$pristine && submitted   }">
+  				<label for="nomUtilisateurConnexion">{{ 'CONNEXION_NOM_UTILISATEUR' | translate }}</label>
+  			
+  				<input type="text" name="nomUtilisateurConnexion" class="form-control"
+         		ng-model="signatureUtilisateur.nomUtilisateurConnexion" required
+         		placeholder="{{ 'CONNEXION_NOM_UTILISATEUR_PLACEHOLDER' | translate }}">
+         		<p ng-show="formulaireSignature.nomUtilisateurConnexion.$invalid && !formulaireSignature.nomUtilisateurConnexion.$pristine || formulaireSignature.nomUtilisateurConnexion.$pristine && submitted " class="help-block">{{ 'CONNEXION_NOM_UTILISATEUR_ERREUR_REQ' | translate }}</p>
+         	</div>
+         		
+  			<div class="form-group" ng-class="{ 'has-error' : formulaireSignature.motDePasseConnexion.$invalid && !formulaireSignature.motDePasseConnexion.$pristine || formulaireSignature.motDePasseConnexion.$pristine && submitted   }"> 
+  				<label for="motDePasseConnexion">{{ 'CONNEXION_MDP_UTILISATEUR' | translate }}</label>
+  				<input type="password" name="motDePasseConnexion" class="form-control"
+         		ng-model="signatureUtilisateur.motDePasseConnexion" required
+         		placeholder="{{ 'CONNEXION_MDP_UTILISATEUR_PLACEHOLDER' | translate }}">
+         		<p ng-show="formulaireSignature.motDePasseConnexion.$invalid && !formulaireSignature.motDePasseConnexion.$pristine || formulaireSignature.motDePasseConnexion.$pristine && submitted " class="help-block">{{ 'CONNEXION_MDP_UTILISATEUR_ERREUR' | translate }}</p>
+ 			</div>
+ 		</div>
+ 	
+    	<div class="modal-footer">
+            <button type="submit" class="btn btn-primary">{{ 'CONNEXION' | translate }}</button>
+            <button class="btn btn-warning" ng-click="annulation(); $event.stopPropagation();">{{ 'ANNULEZ' | translate }}</button>
+    	</div>
+    </form>
+
+
+	
+</div>

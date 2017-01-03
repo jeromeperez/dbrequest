@@ -1,0 +1,27 @@
+<div class="container"><br> 
+<div class="panel panel-default">
+ <div class="panel-body">  
+  <div class="row">
+    <div class="col-sm-6">
+    	<h3>{{tableSelectionnee.tablename}}</h3>                                  
+  		<table class="table table-bordered table-hover table-condensed">
+   		 	<thead>
+      			<tr>
+        			<th>{{ 'TABLES_NOM_CHAMP' | translate }}</th>
+        			<th>{{ 'TABLES_TYPE_CHAMP' | translate }}</th>
+      			</tr>
+    		</thead>
+    		<tbody>
+      			<tr ng-repeat="detailChamps in champsTableSelectionnee" | orderBy : 'attnum'">
+      				<td>{{ detailChamps.attname }}</td>
+      				<td>{{ detailChamps.typname }}</td>
+  				</tr>
+    		</tbody>
+  		</table>
+    </div>
+    <div class="col-sm-6">
+	</div>
+ </div>  		
+</div>	
+</div>	  		
+</div>

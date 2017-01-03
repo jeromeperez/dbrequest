@@ -1,0 +1,35 @@
+{
+  "name": "DbRequestAPI",
+  "version": "0.0.1",
+  "description": "Api pour projet DbRequest",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hapi",
+    "DbRequest"
+  ],
+  "author": "Raphaël CONDE SALAZAR",
+  "license": "ISC",
+  "dependencies": {
+    "angular-translate": "^2.7.2",
+    "angular-translate-loader-static-files": "^2.7.2",
+    "async": "^1.0.0",
+    "checklist-model": "^0.2.4",
+    "good": "^5.1.2",
+    "good-console": "^4.1.0",
+    "handlebars": "^3.0.3",
+    "hapi": "^8.4.0",
+    "hapi-auth-jwt2": "^4.3.0",
+    "hapi-mailer": "^4.0.0",
+    "hapi-swagger": "^0.7.1",
+    "inert": "^3.0.1",
+    "joi": "^6.0.8",
+    "json2csv": "^2.11.0",
+    "jsonwebtoken": "^5.0.0",
+    "path": "^0.11.14",
+    "pg": "^4.3.0",
+    "swagger": "0.0.1"
+  }
+}

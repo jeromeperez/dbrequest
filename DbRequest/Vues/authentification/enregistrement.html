@@ -1,0 +1,66 @@
+
+<div class="modal-content">
+	<div class="modal-header">
+		<h3 class="modal-title">{{ 'ENREGISTREMENT_UTILISATEUR' | translate }}</h3>
+	</div>
+	<form name="formulaireEnregistrement"  novalidate>
+		<div class="modal-body">
+		
+			<div class="form-group" ng-class="{ 'has-error' : formulaireEnregistrement.mailUtilisateur.$invalid && !formulaireEnregistrement.mailUtilisateur.$pristine || formulaireEnregistrement.mailUtilisateur.$pristine && submitted }">
+				<label for="mailUtilisateur">{{ 'ENREGISTREMENT_MAIL_UTILISATEUR' | translate }}</label>
+                <!-- ng-model-options="{ updateOn: 'blur paste' }" -->
+				<input type="email" name="mailUtilisateur" class="form-control"
+         			ng-model="enregistrementUtilisateur.mailUtilisateur"  required mailexiste  
+         			placeholder="{{ 'ENREGISTREMENT_MAIL_UTILISATEUR_PLACEHOLDER' | translate }}">
+         			<p ng-show="formulaireEnregistrement.mailUtilisateur.$error.required && submitted || formulaireEnregistrement.mailUtilisateur.$pristine && submitted " class="help-block">{{ 'ENREGISTREMENT_MAIL_UTILISATEUR_ERREUR_REQ' | translate }}</p>
+         			<p ng-show="formulaireEnregistrement.mailUtilisateur.$error.email && submitted " class="help-block">{{ 'ENREGISTREMENT_MAIL_UTILISATEUR_ERREUR' | translate }}</p>
+         			<p ng-show="formulaireEnregistrement.mailUtilisateur.$pending.mailexiste" class="help-block">{{ 'ENREGISTREMENT_MAIL_UTILISATEUR_PENDING_MAILEXISTE' | translate }}</p>
+         			<p ng-show="formulaireEnregistrement.mailUtilisateur.$error.mailexiste" class="help-block">{{ 'ENREGISTREMENT_MAIL_UTILISATEUR_ERREUR_MAILEXISTE' | translate }}</p>
+         	</div>	
+        	
+        	<div class="form-group" ng-class="{ 'has-error' : formulaireEnregistrement.nomUtilisateur.$invalid && !formulaireEnregistrement.nomUtilisateur.$pristine || formulaireEnregistrement.nomUtilisateur.$pristine && submitted  }">
+        		<label for="nomUtilisateur">{{ 'ENREGISTREMENT_NOM_UTILISATEUR' | translate }}</label>
+        		<input type="text" name="nomUtilisateur" class="form-control"
+         			ng-model="enregistrementUtilisateur.nomUtilisateur" required ng-minlength="4" ng-maxlength="12" nomexiste
+         			placeholder="{{ 'ENREGISTREMENT_NOM_UTILISATEUR_PLACEHOLDER' | translate }}">
+         		<p ng-show="formulaireEnregistrement.nomUtilisateur.$error.required && submitted" class="help-block">{{ 'ENREGISTREMENT_NOM_UTILISATEUR_ERREUR_REQ' | translate }}</p>
+         		<p ng-show="formulaireEnregistrement.nomUtilisateur.$error.minlength && submitted"  class="help-block">{{ 'ENREGISTREMENT_NOM_UTILISATEUR_ERREUR_MIN' | translate }}</p>
+    			<p ng-show="formulaireEnregistrement.nomUtilisateur.$error.maxlength && submitted" class="help-block">{{ 'ENREGISTREMENT_NOM_UTILISATEUR_ERREUR_MAX' | translate }}</p>
+    			<p ng-show="formulaireEnregistrement.nomUtilisateur.$pending.nomexiste" class="help-block">{{ 'ENREGISTREMENT_NOM_UTILISATEUR_PENDING_NOMEXISTE' | translate }}</p>
+         			<p ng-show="formulaireEnregistrement.nomUtilisateur.$error.nomexiste" class="help-block">{{ 'ENREGISTREMENT_NOM_UTILISATEUR_ERREUR_NOMEXISTE' | translate }}</p>
+        	</div>
+        	
+        	<div class="form-group" ng-class="{ 'has-error' : formulaireEnregistrement.motDePasse.$invalid && !formulaireEnregistrement.motDePasse.$pristine || formulaireEnregistrement.motDePasse.$pristine && submitted  }">
+  				<label for="motDePasse">{{ 'ENREGISTREMENT_MDP_UTILISATEUR' | translate }}</label>
+  				<input type="password" name="motDePasse" class="form-control"
+         			ng-model="enregistrementUtilisateur.motDePasse" required ng-minlength="6"
+         			placeholder="{{ 'ENREGISTREMENT_MDP_UTILISATEUR_PLACEHOLDER' | translate }}">
+         		<p ng-show="formulaireEnregistrement.motDePasse.$error.required && submitted || formulaireEnregistrement.motDePasse.$pristine && submitted " class="help-block">{{ 'ENREGISTREMENT_MDP_UTILISATEUR_ERREUR' | translate }}</p>
+ 				<p ng-show="formulaireEnregistrement.motDePasse.$error.minlength && submitted "  class="help-block">{{ 'ENREGISTREMENT_MDP_UTILISATEUR_ERREUR_MIN' | translate }}</p>	        	
+         	</div>
+         	
+         	<div class="form-group" ng-class="{ 'has-error' : formulaireEnregistrement.motDePasseConfirme.$invalid && !formulaireEnregistrement.motDePasseConfirme.$pristine || formulaireEnregistrement.motDePasseConfirme.$pristine && submitted  }">
+  				<label for="motDePasseConfirme">{{ 'ENREGISTREMENT_MDPCONFIRM_UTILISATEUR' | translate }}</label>
+  				<input type="password" name="motDePasseConfirme" class="form-control"
+         			ng-model="enregistrementUtilisateur.motDePasseConfirme" estegal="formulaireEnregistrement.motDePasse" 
+         			placeholder="{{ 'ENREGISTREMENT_MDPCONFIRM_UTILISATEUR_PLACEHOLDER' | translate }}">
+         		<p ng-show="formulaireEnregistrement.motDePasseConfirme.$invalid && submitted || formulaireEnregistrement.motDePasseConfirme.$pristine && submitted " class="help-block">{{ 'ENREGISTREMENT_MDPCONFIRM_UTILISATEUR_ERREUR' | translate }}</p>
+         	</div>
+         	<div class="form-group">
+            	<p><strong>{{ 'ENREGISTREMENT_LANGUE_UTILISATEUR' | translate }} :</strong></p>
+		      	<ul>
+  			    	<li ng-repeat="langue in listeLanguesUtilisateur">
+    		      		<input type="radio" ng-model="$parent.enregistrementUtilisateur.langueChoisie" name="name" value={{langue}} required="required"/> {{langue | uppercase | translate }}
+  			    	</li>
+		      	</ul> 
+		   	</div>   	
+ 	</div>
+    	<div class="modal-footer">
+            <button class="btn btn-primary" ng-click="enregistrement(formulaireEnregistrement.$valid , enregistrementUtilisateur)" >{{ 'OK' | translate }}</button>
+            <button class="btn btn-warning" ng-click="annulation()">{{ 'ANNULEZ' | translate }}</button>
+    	</div>
+ 	</form>
+
+
+	
+</div>

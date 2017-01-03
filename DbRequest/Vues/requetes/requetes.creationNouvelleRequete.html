@@ -1,0 +1,31 @@
+
+<div class="modal-content">
+	<div class="modal-header">
+		<h3 class="modal-title">{{ 'REQUETES_LISTE_CREATION_NOUVELLE_REQUETE' | translate }}</h3>
+	</div>
+	<form name="formulaireCreation"  novalidate>
+		<div class="modal-body">
+	
+			<div class="form-group" ng-class="{ 'has-error' : formulaireCreation.nomRequete.$invalid && !formulaireCreation.nomRequete.$pristine || formulaireCreation.nomRequete.$pristine && submitted  }">
+        		<label for="nomRequete">{{ 'REQUETES_CREATION_NOM_REQUETE' | translate }}</label>
+        		<input type="text" name="nomRequete" class="form-control"
+         			ng-model="enregistrementCreationRequete.nomRequete" required ng-minlength="4" ng-maxlength="40"  nomrequeteexiste 
+         			placeholder="{{ 'REQUETES_CREATION_NOM_REQUETE_PLACEHOLDER' | translate }}">
+         		<p ng-show="formulaireCreation.nomRequete.$error.required && submitted || formulaireCreation.nomRequete.$pristine && submitted " class="help-block">{{ 'REQUETES_CREATION_NOM_REQUETE_ERREUR_REQ' | translate }}</p>
+         		<p ng-show="formulaireCreation.nomRequete.$error.minlength && submitted"  class="help-block">{{ 'REQUETES_CREATION_NOM_REQUETE_ERREUR_MIN' | translate }}</p>
+    			<p ng-show="formulaireCreation.nomRequete.$error.maxlength && submitted" class="help-block">{{ 'REQUETES_CREATION_NOM_REQUETE_ERREUR_MAX' | translate }}</p>
+    			<p ng-show="formulaireCreation.nomRequete.$pending.nomrequeteexiste" class="help-block">{{ 'REQUETES_CREATION_NOM_REQUETE_PENDING_NOMEXISTE' | translate }}</p>
+         		<p ng-show="formulaireCreation.nomRequete.$error.nomrequeteexiste" class="help-block">{{ 'REQUETES_CREATION_NOM_REQUETE_ERREUR_NOMEXISTE' | translate }}</p>
+        	</div>
+			
+        </div>
+        	
+    	<div class="modal-footer">
+    		<button class="btn btn-primary" ng-click="creationDeLaRequete(formulaireCreation.$valid , enregistrementCreationRequete)">{{ 'OK' | translate }}</button>
+            <button class="btn btn-warning" ng-click="annulation()">{{ 'ANNULEZ' | translate }}</button>
+    	</div>
+ 	</form>
+
+
+	
+</div>

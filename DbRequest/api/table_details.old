@@ -1,0 +1,67 @@
+var Joi = require('joi');
+var pg = require('pg');
+var env = require('../config/env');
+
+module.exports.route = {
+	method: 'GET',
+	path: '/api/tables/table_detail/{id_base}/{id_table}',
+	handler: function (request, reply) {
+		
+		var id_base = request.params.id_base; // La base de données est récupérée  à partir de l'URL
+		var id_table = request.params.id_table; // L'identifiant de la table est récupérée  à partir de l'URL
+		
+		
+		var cn = {
+			host: env.pg_host, // Nom du serveur ou adresse IP;
+			port: env.pg_port,
+			database: id_base, // La base de donnée est celle passée en paramètre
+			user: env.pg_user,
+			password: env.pg_password
+		};
+		
+		pg.connect(cn, function(err, client, done) {
+			if(err) {
+				return console.error('error fetching client from pool', err);
+			}
+			
+			client.query('SELECT c.relname ,c.oid ,a.attname ,a.attnum ,a.atttypid ,t.typname FROM pg_attribute a ,pg_class c ,pg_type t' +
+			' WHERE a.attrelid = c.oid AND c.relname = $1 AND a.attnum >= 1 AND a.atttypid = t.oid'
+		    ,[id_table], function(err, result) {
+				// call 'done()' to release the client back to the pool
+				done();
+
+				if(err) {
+					return console.error('error running query', err);
+				}
+				
+				// var json = JSON.stringify(result.rows);
+				// reply(json);
+				reply(result.rows);
+				
+			});
+		});
+		
+	},
+	
+	config: {
+		/* auth: false , */
+		auth: {
+            strategy: 'jwt',
+            scope: ['admin' , 'redacteur']
+        },
+		tags: ['api'],
+		description: 'GET détails table ',
+		notes: 'Renvoi les différentes colonnes d\'une table passée en paramètre',
+		validate: {
+			params: {
+				id_base: Joi.string()
+					.required()
+					.description('Tables\' identifiant base (_id_base)'),
+				id_table: Joi.string()
+					.required()
+					.description('Tables\' identifiant table (_id_table)')	
+			}
+		}
+	}
+
+}

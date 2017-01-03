@@ -1,0 +1,92 @@
+<div class="row">
+	<div class="col-sm-3">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<a><strong>{{ 'REQUETE_CONSTRUCTEUR_TABLES_SELECTIONNEES' | translate }}</strong></a>
+			</div>
+			<div class="panel-body">
+				<div id="scrollArea" style="overflow: auto; height:250px;">
+					<table class="table table-bordered table-hover table-condensed">
+    					<tbody>
+      						<tr ng-repeat="table in tables | orderBy : 'tablename'">
+      							<td>
+      								<input type="checkbox" checklist-change="checkboxModifTable()" data-checklist-model="tablesSelectionnees" data-checklist-value="table.tablename">
+      								{{table.tablename}}
+      							</td>
+  							</tr>
+    					</tbody>
+  					</table>
+				</div>
+			</div>
+		</div>
+	</div>	
+    <div class="col-sm-9">
+    	<div class="panel panel-default">
+    		<div class="panel-heading">
+				<a><strong>{{ 'REQUETE_CONSTRUCTEUR_CHAMPS_TABLES_SELECTIONNEES' | translate }}</strong></a>
+			</div>
+			<div class="panel-body">
+				<div id="scrollArea" style="overflow: auto; height:250px;">
+					<div class="row">
+				 		<div ng-repeat="ligne in champsTablesSelectionnees" class="col-xs-3">
+				 			<div class="panel panel-default">
+				 				<div class="panel-heading">
+				 					{{ligne.nomtable}}
+				 					<br>
+			            			<input type="checkbox" checklist-change="checkboxSelectTousLesChamps()" data-checklist-model="utilisateurDuSQL.selectTousLesChamps" data-checklist-value="ligne">
+			            		</div>
+			            		<div class="panel-body">
+			            			<div id="scrollArea" style="overflow: auto; height:150px;">
+			            				<div ng-repeat="champ in ligne.champs" >
+				        					<input type="checkbox" checklist-change="checkboxModifChamp()" data-checklist-model="utilisateurDuSQL.champs" data-checklist-value="champ"> {{champ.attname}} 				        
+				     					</div>
+				     				</div>
+			            		</div>
+			            	</div>
+			            	</div>		
+			     		</div>
+			     	</div>			
+			    </div>
+		 	</div>
+    	</div>
+	</div>
+	
+</div>
+
+<div class="panel panel-default">
+	<div class="panel-heading">
+				<a><strong>{{ 'REQUETE_CONSTRUCTEUR' | translate }}</strong></a>
+    </div>
+    <div class="panel-body">
+		<tabset>
+    		<tab ui-sref="requetes.detail.constructeur.champs" active=true>
+      			<tab-heading>
+        			{{ 'REQUETE_CONSTRUCTEUR_MENU_CHAMPS' | translate }}
+      			</tab-heading>
+    		</tab>
+    		<tab ui-sref="requetes.detail.constructeur.selection">
+      			<tab-heading>
+        			{{ 'REQUETE_CONSTRUCTEUR_MENU_SELECTION' | translate }}
+      			</tab-heading>
+    		</tab>
+    		<tab ui-sref="requetes.detail.constructeur.tri">
+     	 		<tab-heading>
+     		   		{{ 'REQUETE_CONSTRUCTEUR_MENU_TRI' | translate }}
+      			</tab-heading>
+    		</tab>
+    		<tab ui-sref="requetes.detail.constructeur.jointure">
+      			<tab-heading>
+        			{{ 'REQUETE_CONSTRUCTEUR_MENU_JOINTURE' | translate }}
+      			</tab-heading>
+    		</tab>
+    		<tab ui-sref="requetes.detail.constructeur.groupBy">
+      			<tab-heading>
+        			{{ 'REQUETE_CONSTRUCTEUR_MENU_GROUPBY' | translate }}
+      			</tab-heading>
+    		</tab>
+    </tabset>
+    <div ui-view class="span9 slide"></div>
+	</div>
+	
+  	
+</div>

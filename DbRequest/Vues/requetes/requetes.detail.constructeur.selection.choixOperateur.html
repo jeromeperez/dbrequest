@@ -1,0 +1,35 @@
+<div class="modal-content">
+	<div class="modal-header">
+		<h3 class="modal-title">{{ 'REQUETE_CONSTRUCTEUR_MENU_SELECTION_OPERATEUR_CHOIXOPERATEUR' | translate }}</h3>
+	</div>
+
+	<div class="modal-body">
+      
+    <div class="row">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<a><strong>{{ 'REQUETE_CONSTRUCTEUR_MENU_SELECTION_OPERATEUR_CHOIXOPERATEUR_OPERATEUR' | translate }}</strong></a>
+			</div>
+			<div class="panel-body">
+				<div id="scrollArea" style="overflow: auto; height:250px;">
+					<table class="table table-bordered table-hover table-condensed">
+    					<tbody>
+      						<tr ng-repeat="operateur in listeOperateurs"ng-click="selectionOperateur(operateur)">
+      							<td>
+      								{{operateur}}
+      							</td>
+  							</tr>
+    					</tbody>
+  					</table>
+				</div>
+			</div>
+		</div>
+ 	</div>
+ 	
+    <div class="modal-footer">
+    </div>
+
+
+
+	
+</div>

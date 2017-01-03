@@ -1,0 +1,42 @@
+<div class="modal-content">
+	<div class="modal-header">
+		<h3 class="modal-title">{{ 'IMPORTATION_BASE' | translate }} {{$stateParams.baseDataManagerId}}</h3>
+	</div>
+	<form name="formulaireImportation"  novalidate>
+		<div class="modal-body">
+		    <div class="form-group">
+		      <label for="structuresAImporter">{{ 'DETAIL_STRUCTURES_A_IMPORTER' | translate }}</label>
+		      <ul>
+  			    <li ng-repeat="structure in listeStructuresAImporter">
+    		      <input type="checkbox" checklist-model="choixImportation.structuresAImporter" checklist-value="structure.id"/> {{structure.name}}
+  			    </li>
+		      </ul> 
+ 		    </div>
+ 		    <div class="form-group" ng-class="{ 'has-error' : formulaireImportation.nomNouvelleBase.$invalid && !formulaireImportation.nomNouvelleBase.$pristine || formulaireImportation.nomNouvelleBase.$pristine && submitted  }">
+        		<label for="nomNouvelleBase">{{ 'IMPORTATION_BASE_NOM_NOUVELLE_BASE' | translate }}</label>
+        		<input type="text" name="nomNouvelleBase" class="form-control"
+         			ng-model="choixImportation.nomNouvelleBase"  ng-minlength="4" ng-maxlength="50" ng-required ng-pattern="/^[a-z0-9-_]*$/"
+         			value=$stateParams.baseDataManagerId
+         			>
+         		<p ng-show="formulaireImportation.nomNouvelleBase.$error.required && submitted || formulaireImportation.nomNouvelleBase.$pristine && submitted " class="help-block">{{ 'IMPORTATION_BASE_NOM_NOUVELLE_BASE_ERREUR_REQ' | translate }}</p>
+         		<p ng-show="formulaireImportation.nomNouvelleBase.$error.minlength && submitted"  class="help-block">{{ 'IMPORTATION_BASE_NOM_NOUVELLE_BASE_ERREUR_MIN' | translate }}</p>
+    			<p ng-show="formulaireImportation.nomNouvelleBase.$error.maxlength && submitted" class="help-block">{{ 'IMPORTATION_BASE_NOM_NOUVELLE_BASE_ERREUR_MAX' | translate }}</p>
+				<p ng-show="formulaireImportation.nomNouvelleBase.$error.pattern && !formulaireImportation.nomNouvelleBase.$pristine  " class="help-block">{{ 'IMPORTATION_BASE_NOM_NOUVELLE_BASE_ERREUR_PATTERN' | translate }}</p>         	
+        	</div>
+			<!-- <div class="form-group" ng-class="{ 'has-error' : formulaireImportation.nomNouvelleBase.$invalid && !formulaireImportation.nomNouvelleBase.$pristine || formulaireImportation.nomNouvelleBase.$pristine && submitted   }">
+  				<label for="nomNouvelleBase">{{ 'NOM_NOUVELLE_BASE' | translate }}</label>
+  				<input type="text" name="nomNouvelleBase" class="form-control"
+         		ng-model="choixImportation.nomNouvelleBase" required ng-pattern="/^[a-z0-9-_]*$/"
+         		value=$stateParams.baseDataManagerId
+         		/>
+         		<p ng-show="formulaireImportation.nomNouvelleBase.$error.required && !formulaireImportation.nomNouvelleBase.$pristine || formulaireImportation.nomNouvelleBase.$pristine && submitted " class="help-block">{{ 'IMPORTATION_BASE_NOM_NOUVELLE_BASE_ERREUR_REQ' | translate }}</p>
+				<p ng-show="formulaireImportation.nomNouvelleBase.$error.pattern && !formulaireImportation.nomNouvelleBase.$pristine  " class="help-block">{{ 'IMPORTATION_BASE_NOM_NOUVELLE_BASE_ERREUR_PATTERN' | translate }}</p>         	
+         	</div>	 -->
+ 		</div>
+    	<div class="modal-footer">
+            <button class="btn btn-primary" ng-click="importation(formulaireImportation.$valid ,choixImportation)" ng-hide="flagImportationEnCours || flagDemandeImportationEnCours" >{{ 'IMPORTEZ' | translate }}</button>
+            <button class="btn btn-warning" ng-click="annulation()" >{{ 'ANNULEZ' | translate }}</button>
+            <a ng-show="flagImportationEnCours || flagDemandeImportationEnCours" >{{ 'IMPORTATION_BASE_VEUILLEZ_PATIENTER' | translate }}</a>
+    	</div>
+    </form>
+</div>

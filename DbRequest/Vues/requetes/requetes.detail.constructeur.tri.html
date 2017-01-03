@@ -1,0 +1,64 @@
+<div class="container"><br>   
+  <div class="row">
+    <div class="col-sm-10">                                  
+  		<table class="table table-bordered table-hover table-condensed">
+   		 	<thead>
+      			<tr>
+       		 		<th></th>
+        			<th>{{ 'REQUETE_CONSTRUCTEUR_MENU_TRI_TABLE' | translate }}</th>
+        			<th>{{ 'REQUETE_CONSTRUCTEUR_MENU_TRI_CHAMP' | translate }}</th>
+       		 		<th>{{ 'REQUETE_CONSTRUCTEUR_MENU_TRI_ORDRE' | translate }}</th>
+      			</tr>
+    		</thead>
+    		<tbody>
+      			<tr ng-repeat="tri in detailsRequeteTri | orderBy : 'idtri'" 
+      				ng-click="triLigne(tri.idtri)" ng-class="{selected: tri.idtri === idTriSelectionne}" >
+      				<td>{{ tri.idtri }}</td>
+      				<td>{{ tri.nomtable }}</td>
+      				<td>
+      					<div class="form-group">
+      						<div class="col-sm-9">
+      							{{ tri.nomchamp }}
+      						</div>
+      						<div class="col-sm-3">
+      							<button ng-click="triChamp(tri.idtri); $event.stopPropagation();" class="btn btn-xs">
+      								<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+      							</button>
+      						</div>
+      					</div>
+      				</td>
+      				<td>
+      					<div class="form-group">
+      						<div class="col-sm-9">
+      							{{ tri.ordre }}
+      						</div>
+      						<div class="col-sm-3">
+      							<button ng-click="triOrdre(tri.idtri); $event.stopPropagation();" class="btn btn-xs">
+      								<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+      							</button>
+      						</div>
+      					</div>
+      				</td>
+      			</tr>
+    		</tbody>
+  		</table>
+    </div>
+    <div class="col-sm-1">
+        <br>
+    	<br>
+    	<button ng-click="monterTri()"><span class="glyphicon glyphicon-triangle-top" aria-hidden="true"></span></button>
+    	<br>
+    	<br>
+    	<br>
+    	<button ng-click="descendreTri()"><span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span></button>
+	</div>  
+	<div class="col-sm-1">
+        <br>
+    	<br>
+    	<button ng-click="ajouterTri()"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button>
+    	<br>
+    	<br>
+    	<br>
+    	<button ng-click="supprimerTri()"><span class="glyphicon glyphicon-minus" aria-hidden="true"></span></button>
+	</div>  				
+</div>
